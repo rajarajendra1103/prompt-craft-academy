@@ -1,0 +1,154 @@
+/* Base Variables (Light Mode Defaults) */
+:root {
+  --bg-main: #ffffff;
+  --bg-sidebar: #f9fafb;
+  --bg-card: #ffffff;
+  --text-primary: #1f2937;
+  --text-secondary: #4b5563;
+  --border: #e5e7eb;
+  --success: #10b981;
+  --code-bg: #1f2937;
+  --code-text: #f3f4f6;
+
+  /* Default Accent (Glacier) */
+  --accent: hsl(199, 89%, 48%);
+}
+
+/* Dark Mode Overrides */
+.dark {
+  --bg-main: #0f172a;
+  --bg-sidebar: #1e293b;
+  --bg-card: #1e293b;
+  --text-primary: #f9fafb;
+  --text-secondary: #9ca3af;
+  --border: #334155;
+  --code-bg: #020617;
+  --code-text: #e2e8f0;
+}
+
+/* Color Themes (Accent Overrides) */
+.theme-glacier {
+  --accent: hsl(199, 89%, 48%);
+}
+
+.theme-harvest {
+  --accent: hsl(25, 95%, 53%);
+}
+
+.theme-emerald {
+  --accent: hsl(160, 84%, 39%);
+}
+
+.theme-amethyst {
+  --accent: hsl(270, 70%, 55%);
+}
+
+.theme-rose {
+  --accent: hsl(350, 89%, 60%);
+}
+
+.theme-sunset {
+  --accent: hsl(15, 95%, 55%);
+}
+
+.theme-ocean {
+  --accent: hsl(200, 98%, 39%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 0.5em 0;
+  font-weight: 700;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* Utilities */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.btn-primary {
+  background-color: var(--accent);
+  color: white;
+}
+
+.btn-primary:hover {
+  filter: brightness(1.1);
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid var(--accent);
+  color: var(--accent);
+}
+
+.btn-outline:hover {
+  background: var(--accent);
+  color: white;
+}
+
+.code-block {
+  background: var(--code-bg);
+  color: var(--code-text);
+  padding: 16px;
+  border-radius: 8px;
+  font-family: 'Fira Code', monospace;
+  overflow-x: auto;
+}
