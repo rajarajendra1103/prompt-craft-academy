@@ -129,7 +129,7 @@ const Layout = () => {
 
             <footer style={{ background: 'var(--bg-sidebar)', padding: '32px 0', marginTop: 'auto' }}>
                 <div className="container" style={{ textAlign: 'center', color: 'var(--text-secondary)' }}>
-                    <p>© 2024 PromptCraft Academy. Open Source & Free.</p>
+                    <p>© 2026 PromptCraft Academy. Open Source & Free.</p>
                 </div>
             </footer>
         </div>
