@@ -24,8 +24,10 @@ export const gameDevelopment = {
                     keywords: [
                         { term: 'Core Loop', definition: 'The primary repeating activity in the game (e.g., Kill -> Loot -> Upgrade).' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Game & Simulation Tutorial', url: 'https://www.youtube.com/results?search_query=Game%20%26%20Simulation%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-IP-02',
@@ -38,9 +40,13 @@ export const gameDevelopment = {
                         before: 'Make a cool sword.',
                         after: 'Create a JSON representation of a "Flame Sword". ### Requirements: 1. Base Damage: 50. 2. Special Effect: "Burn" (DoT). 3. Rarity: Epic. 4. Lore Description: "Forged in the depths...".'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Game & Simulation', definition: 'The core subject of this lesson, focusing on game & simulation.' }
+                    ],
+                    resources: [
+                        { title: 'Anatomy of an Effective Prompt Tutorial', url: 'https://www.youtube.com/results?search_query=Anatomy%20of%20an%20Effective%20Prompt%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-IP-03',
@@ -56,8 +62,10 @@ export const gameDevelopment = {
                     keywords: [
                         { term: 'Demographics', definition: 'Statistical data relating to the population and particular groups within it.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Defining Genre & Audience Tutorial', url: 'https://www.youtube.com/results?search_query=Defining%20Genre%20%26%20Audience%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-IP-05',
@@ -70,9 +78,13 @@ export const gameDevelopment = {
                         before: 'A racing game.',
                         after: 'Brainstorm 5 unique "Hooks" for a Racing Game. It must NOT be realistic. Example directions: "Time Travel", "Anti-Gravity", "Microscopic Cars".'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Defining Genre & Audience', definition: 'The core subject of this lesson, focusing on defining genre & audience.' }
+                    ],
+                    resources: [
+                        { title: 'Concept to Clear Vision Tutorial', url: 'https://www.youtube.com/results?search_query=Concept%20to%20Clear%20Vision%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-IP-06',
@@ -88,8 +100,10 @@ export const gameDevelopment = {
                     keywords: [
                         { term: 'Meta Game', definition: 'The game beyond the basic game; long-term progression and strategy.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Core Gameplay Loop Generation Tutorial', url: 'https://www.youtube.com/results?search_query=Core%20Gameplay%20Loop%20Generation%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-IP-07',
@@ -105,8 +119,10 @@ export const gameDevelopment = {
                     keywords: [
                         { term: 'GDD', definition: 'Game Design Document - a descriptive document designed to describe the design of a video game.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Writing a GDD with AI Tutorial', url: 'https://www.youtube.com/results?search_query=Writing%20a%20GDD%20with%20AI%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-IP-08',
@@ -122,8 +138,10 @@ export const gameDevelopment = {
                     keywords: [
                         { term: 'Emergent Gameplay', definition: 'Complex situations that emerge from the interaction of relatively simple game mechanics.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Feature List & Mechanics Tutorial', url: 'https://www.youtube.com/results?search_query=Feature%20List%20%26%20Mechanics%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-IP-09',
@@ -136,9 +154,13 @@ export const gameDevelopment = {
                         before: 'Make levels.',
                         after: 'Create a XP Table for levels 1-10. The XP required should follow an exponential curve (Target: Level 10 takes 5x longer than Level 1). Define the rewards (New Skills) for each level.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Core Gameplay Loop Generation', definition: 'The core subject of this lesson, focusing on core gameplay loop generation.' }
+                    ],
+                    resources: [
+                        { title: 'Objectives & Rewards Tutorial', url: 'https://www.youtube.com/results?search_query=Objectives%20%26%20Rewards%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-IP-10',
@@ -151,9 +173,13 @@ export const gameDevelopment = {
                         before: 'Nature rules.',
                         after: 'Define the rules for a "Wolf vs Rabbit" simulation. Rule 1: Wolves lose energy to move. Rule 2: Rabbits reproduce every 10 ticks. Rule 3: Wolves die if energy < 0.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Simulation Rules & Constraints', definition: 'The core subject of this lesson, focusing on simulation rules & constraints.' }
+                    ],
+                    resources: [
+                        { title: 'Simulation Rules & Constraints Tutorial', url: 'https://www.youtube.com/results?search_query=Simulation%20Rules%20%26%20Constraints%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-IP-11',
@@ -166,9 +192,13 @@ export const gameDevelopment = {
                         before: 'Make boss.',
                         after: 'Break down the development of a "Giant Spider Boss" into tasks. Categories: Art (Model/Rig), AI (Behavior Tree), FX (Poison Spit), Audio (Screech).'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Breaking into Tasks', definition: 'The core subject of this lesson, focusing on breaking into tasks.' }
+                    ],
+                    resources: [
+                        { title: 'Breaking into Tasks Tutorial', url: 'https://www.youtube.com/results?search_query=Breaking%20into%20Tasks%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-IP-12',
@@ -181,9 +211,13 @@ export const gameDevelopment = {
                         before: 'Can I build an MMO?',
                         after: 'I am a solo dev. I want to build a "Seamless Open World MMO with destructible terrain". Act as a Senior Producer. Roast this idea. Tell me why it is unfeasible and suggest a scope I can actually handle.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Feasibility & Scope', definition: 'The core subject of this lesson, focusing on feasibility & scope.' }
+                    ],
+                    resources: [
+                        { title: 'Feasibility & Scope Tutorial', url: 'https://www.youtube.com/results?search_query=Feasibility%20%26%20Scope%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -206,8 +240,10 @@ export const gameDevelopment = {
                         { term: 'Kinematic', definition: 'Movement controlled by code rather than physics forces.' },
                         { term: 'Coyote Time', definition: 'A small window of time after walking off a ledge where the player can still jump.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Module 2: Frontend (Game Logic) Tutorial', url: 'https://www.youtube.com/results?search_query=Module%202%3A%20Frontend%20(Game%20Logic)%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-FE-02',
@@ -224,8 +260,10 @@ export const gameDevelopment = {
                         { term: 'Lerp', definition: 'Linear Interpolation - finding a value between two points.' },
                         { term: 'Dead Zone', definition: 'An area in which movement of the controller produces no response.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Camera Systems Tutorial', url: 'https://www.youtube.com/results?search_query=Camera%20Systems%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-FE-03',
@@ -242,8 +280,10 @@ export const gameDevelopment = {
                         { term: 'Raycast', definition: 'Shooting an invisible line to see what it hits.' },
                         { term: 'Trigger', definition: 'A collider that registers collisions but does not physically block movement.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Physics & Collision Tutorial', url: 'https://www.youtube.com/results?search_query=Physics%20%26%20Collision%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-FE-04',
@@ -256,9 +296,13 @@ export const gameDevelopment = {
                         before: 'Health code.',
                         after: 'Create a C# class `PlayerStats`. Variables: currentHealth, maxHealth. Function: `TakeDamage(amount)`. Logic: If health <= 0, trigger `Die()`. Include a `Heal(amount)` function.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Module 2: Frontend (Game Logic)', definition: 'The core subject of this lesson, focusing on module 2: frontend (game logic).' }
+                    ],
+                    resources: [
+                        { title: 'Player Stats System Tutorial', url: 'https://www.youtube.com/results?search_query=Player%20Stats%20System%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-FE-05',
@@ -271,9 +315,13 @@ export const gameDevelopment = {
                         before: 'Input code.',
                         after: 'Explain how to set up the Unity Input System for a "Fire" action. It should map to: Left Mouse Button, Gamepad South Button, and Touch Tap. Write the code to subscribe to the event.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Input Handling', definition: 'The core subject of this lesson, focusing on input handling.' }
+                    ],
+                    resources: [
+                        { title: 'Input Handling Tutorial', url: 'https://www.youtube.com/results?search_query=Input%20Handling%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-FE-06',
@@ -289,8 +337,10 @@ export const gameDevelopment = {
                     keywords: [
                         { term: 'Singleton', definition: 'A design pattern that ensures a class has only one instance and provides a global point of access to it.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Game State Management Tutorial', url: 'https://www.youtube.com/results?search_query=Game%20State%20Management%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-FE-07',
@@ -306,8 +356,10 @@ export const gameDevelopment = {
                     keywords: [
                         { term: 'Object Pooling', definition: 'Reusing objects (like bullets) from a pre-instantiated pool to avoid memory allocation overhead.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'AI Script Optimization Tutorial', url: 'https://www.youtube.com/results?search_query=AI%20Script%20Optimization%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-FE-08',
@@ -323,8 +375,10 @@ export const gameDevelopment = {
                     keywords: [
                         { term: 'Gizros', definition: 'Visual aids drawn in the scene view to help debug functionality (never seen in the game).' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Debugging Gameplay Logic Tutorial', url: 'https://www.youtube.com/results?search_query=Debugging%20Gameplay%20Logic%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-FE-09',
@@ -337,9 +391,13 @@ export const gameDevelopment = {
                         before: 'Game is laggy.',
                         after: 'I have a spike in the Profiler under "Scripts". It says "String.Concat". Explain why adding strings together in `Update()` is bad for memory and how to use `StringBuilder`. '
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Game State Management', definition: 'The core subject of this lesson, focusing on game state management.' }
+                    ],
+                    resources: [
+                        { title: 'Performance & Memory Tutorial', url: 'https://www.youtube.com/results?search_query=Performance%20%26%20Memory%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -361,8 +419,10 @@ export const gameDevelopment = {
                     keywords: [
                         { term: 'Diegetic UI', definition: 'Interface elements that exist within the game world (e.g., Isaac Clarke\'s spine health bar in Dead Space).' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Module 3: UI / UX Prompts Tutorial', url: 'https://www.youtube.com/results?search_query=Module%203%3A%20UI%20%2F%20UX%20Prompts%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-UX-02',
@@ -375,9 +435,13 @@ export const gameDevelopment = {
                         before: 'Settings screen.',
                         after: 'List the essential options for a PC Game Settings menu. categories: Graphics (Resolution, VSync), Audio (Master, SFX, Music), Controls (Remap, Sensitivity), Gameplay (Subtitles).'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Module 3: UI / UX Prompts', definition: 'The core subject of this lesson, focusing on module 3: ui / ux prompts.' }
+                    ],
+                    resources: [
+                        { title: 'Menu Systems Tutorial', url: 'https://www.youtube.com/results?search_query=Menu%20Systems%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-UX-03',
@@ -390,9 +454,13 @@ export const gameDevelopment = {
                         before: 'Inventory screen.',
                         after: 'Describe the layout for a Fantasy RPG Inventory. Left: Character Paper Doll (Equipment slots). Right: Grid of Backpack items (5x5). Bottom: Gold count and Weight limit (Encumbrance).'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Inventory & Skill UI', definition: 'The core subject of this lesson, focusing on inventory & skill ui.' }
+                    ],
+                    resources: [
+                        { title: 'Inventory & Skill UI Tutorial', url: 'https://www.youtube.com/results?search_query=Inventory%20%26%20Skill%20UI%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-UX-04',
@@ -405,9 +473,13 @@ export const gameDevelopment = {
                         before: 'Quest notification.',
                         after: 'Describe the animation and sound for a "Quest Accepted" notification. Visual: Gold scroll unfurling at the top center. Text: "New Quest: Slay the Dragon". Sound: Trumpet fanfare.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Quest & Objective UI', definition: 'The core subject of this lesson, focusing on quest & objective ui.' }
+                    ],
+                    resources: [
+                        { title: 'Quest & Objective UI Tutorial', url: 'https://www.youtube.com/results?search_query=Quest%20%26%20Objective%20UI%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-UX-05',
@@ -420,9 +492,13 @@ export const gameDevelopment = {
                         before: 'Level up screen.',
                         after: 'Describe the sequence for a Level Up. 1. Screen dims. 2. "LEVEL UP!" text explodes in (Scale 0 to 1.5 then 1). 3. Particle effects (Confetti). 4. Stat numbers roll up (e.g., Strength 10 -> 12).'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'UI Animations', definition: 'The core subject of this lesson, focusing on ui animations.' }
+                    ],
+                    resources: [
+                        { title: 'UI Animations Tutorial', url: 'https://www.youtube.com/results?search_query=UI%20Animations%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-UX-06',
@@ -435,9 +511,13 @@ export const gameDevelopment = {
                         before: 'Subtitle rules.',
                         after: 'Generate a guideline for "Good Game Subtitles". Font: Sans-serif. Size: Large. Background: Semi-transparent black box. Speaker Name: Included in color. Limit: 2 lines per screen.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Accessibility in Games', definition: 'The core subject of this lesson, focusing on accessibility in games.' }
+                    ],
+                    resources: [
+                        { title: 'Accessibility in Games Tutorial', url: 'https://www.youtube.com/results?search_query=Accessibility%20in%20Games%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-UX-07',
@@ -450,9 +530,13 @@ export const gameDevelopment = {
                         before: 'Mobile HUD.',
                         after: 'Convert a PC FPS HUD for Mobile. Instead of "Press R to Reload", add a virtual "Reload" button near the Shoot button. Move the minimap away from the top corners (notch area).'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Mobile vs PC UI', definition: 'The core subject of this lesson, focusing on mobile vs pc ui.' }
+                    ],
+                    resources: [
+                        { title: 'Mobile vs PC UI Tutorial', url: 'https://www.youtube.com/results?search_query=Mobile%20vs%20PC%20UI%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-UX-08',
@@ -465,9 +549,13 @@ export const gameDevelopment = {
                         before: 'Hit reaction.',
                         after: 'Describe the feedback when a player gets hit. Visual: Screen flashes red (vignette). Camera: Shakes violently. Audio: Muffled "thud" sound. Character: Plays "Flinch" animation.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Player Feedback', definition: 'The core subject of this lesson, focusing on player feedback.' }
+                    ],
+                    resources: [
+                        { title: 'Player Feedback Tutorial', url: 'https://www.youtube.com/results?search_query=Player%20Feedback%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-UX-09',
@@ -480,9 +568,13 @@ export const gameDevelopment = {
                         before: 'Intro flow.',
                         after: 'Map the steps for a new player. 1. Splash Screen. 2. Calibration (Gamma/Audio). 3. Tutorial Mission (No Main Menu yet). 4. Account Creation. Explain why putting Gameplay before Account Creation reduces churn.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'UX Flow', definition: 'The core subject of this lesson, focusing on ux flow.' }
+                    ],
+                    resources: [
+                        { title: 'UX Flow Tutorial', url: 'https://www.youtube.com/results?search_query=UX%20Flow%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -505,8 +597,10 @@ export const gameDevelopment = {
                         { term: 'UDP', definition: 'User Datagram Protocol - fast, connectionless transmission protocol (used for real-time games).' },
                         { term: 'Tick Rate', definition: 'The frequency at which the server updates the game state (e.g., 64 ticks/sec).' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Module 4: Backend (Game Servers) Tutorial', url: 'https://www.youtube.com/results?search_query=Module%204%3A%20Backend%20(Game%20Servers)%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-BE-02',
@@ -519,9 +613,13 @@ export const gameDevelopment = {
                         before: 'Steam login.',
                         after: 'Explain the flow for "Login with Steam". 1. Client gets Ticket from Steam App. 2. Client sends Ticket to Backend. 3. Backend validates Ticket with Valve Web API. 4. Backend issues Session Token.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Module 4: Backend (Game Servers)', definition: 'The core subject of this lesson, focusing on module 4: backend (game servers).' }
+                    ],
+                    resources: [
+                        { title: 'Authentication & Profiles Tutorial', url: 'https://www.youtube.com/results?search_query=Authentication%20%26%20Profiles%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-BE-03',
@@ -537,8 +635,10 @@ export const gameDevelopment = {
                     keywords: [
                         { term: 'Lag Compensation', definition: 'Techniques used to mask the effects of network latency.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'State Synchronization Tutorial', url: 'https://www.youtube.com/results?search_query=State%20Synchronization%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-BE-04',
@@ -551,9 +651,13 @@ export const gameDevelopment = {
                         before: 'Make matchmaker.',
                         after: 'Write pseudocode for a Matchmaking Loop. 1. User joins Queue. 2. Look for users with +/- 100 ELO. 3. Look for regions < 50ms Ping. 4. If not found in 30s, expand ELO range.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'State Synchronization', definition: 'The core subject of this lesson, focusing on state synchronization.' }
+                    ],
+                    resources: [
+                        { title: 'Matchmaking Systems Tutorial', url: 'https://www.youtube.com/results?search_query=Matchmaking%20Systems%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-BE-05',
@@ -566,9 +670,13 @@ export const gameDevelopment = {
                         before: 'Redis ranking.',
                         after: 'How would you use Redis `ZADD` and `ZRANGE` to implement a "Top 10 High Scores" list? How do you handle two players having the exact same score?'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Leaderboards & Ranking', definition: 'The core subject of this lesson, focusing on leaderboards & ranking.' }
+                    ],
+                    resources: [
+                        { title: 'Leaderboards & Ranking Tutorial', url: 'https://www.youtube.com/results?search_query=Leaderboards%20%26%20Ranking%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-BE-06',
@@ -581,9 +689,13 @@ export const gameDevelopment = {
                         before: 'IAP verify.',
                         after: 'Write a Node.js function to validate an iOS App Store receipt. 1. Receive receipt-data. 2. Send to Apple Verify endpoint. 3. Check `status` code. 4. Grant items if valid.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Economy & Purchases', definition: 'The core subject of this lesson, focusing on economy & purchases.' }
+                    ],
+                    resources: [
+                        { title: 'Economy & Purchases Tutorial', url: 'https://www.youtube.com/results?search_query=Economy%20%26%20Purchases%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-BE-07',
@@ -596,9 +708,13 @@ export const gameDevelopment = {
                         before: 'Stop speed hack.',
                         after: 'Design a server-side check for movement speed. If the player moved > 20 meters in 1 second, and max speed is 10 m/s, flag them. Account for lag spikes.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Anti-Cheat & Security', definition: 'The core subject of this lesson, focusing on anti-cheat & security.' }
+                    ],
+                    resources: [
+                        { title: 'Anti-Cheat & Security Tutorial', url: 'https://www.youtube.com/results?search_query=Anti-Cheat%20%26%20Security%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-BE-08',
@@ -611,9 +727,13 @@ export const gameDevelopment = {
                         before: 'Log crash.',
                         after: 'Write a structure JSON log for a "Match Crash". Fields: MatchID, ServerIP, PlayerCount, StackTrace, Reason. Explain why JSON is better than text logs.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Logging & Monitoring', definition: 'The core subject of this lesson, focusing on logging & monitoring.' }
+                    ],
+                    resources: [
+                        { title: 'Logging & Monitoring Tutorial', url: 'https://www.youtube.com/results?search_query=Logging%20%26%20Monitoring%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-BE-09',
@@ -626,9 +746,13 @@ export const gameDevelopment = {
                         before: 'Test servers.',
                         after: 'Describe a load test plan using a Headless Bot. 1. Bot connects. 2. Bot spams movement packets. 3. Measure Server Tick Rate. If Tick Rate drops below 30Hz, the test fails.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Backend Testing', definition: 'The core subject of this lesson, focusing on backend testing.' }
+                    ],
+                    resources: [
+                        { title: 'Backend Testing Tutorial', url: 'https://www.youtube.com/results?search_query=Backend%20Testing%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -647,9 +771,13 @@ export const gameDevelopment = {
                         before: 'Save player.',
                         after: 'Design the JSON schema for a Save File. Include: Player Position (Vector3), Current Health, Inventory (List of IDs), and Active Quest Step.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Module 5: Game Data & Storage', definition: 'The core subject of this lesson, focusing on module 5: game data & storage.' }
+                    ],
+                    resources: [
+                        { title: 'Module 5: Game Data & Storage Tutorial', url: 'https://www.youtube.com/results?search_query=Module%205%3A%20Game%20Data%20%26%20Storage%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-DB-02',
@@ -662,9 +790,13 @@ export const gameDevelopment = {
                         before: 'Save quests.',
                         after: 'Create a SQL table definition for `PlayerQuests`. Columns: `player_id`, `quest_id`, `status` (enum), `current_step_index`, `completed_at`.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Player Progress Schema', definition: 'The core subject of this lesson, focusing on player progress schema.' }
+                    ],
+                    resources: [
+                        { title: 'Player Progress Schema Tutorial', url: 'https://www.youtube.com/results?search_query=Player%20Progress%20Schema%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-DB-03',
@@ -677,9 +809,13 @@ export const gameDevelopment = {
                         before: 'Item data.',
                         after: 'Define the data structure for a "Minecraft" style tool. It needs: `type_id` (Diamond Pickaxe), `durability` (int), `enchantments` (List of objects).'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Inventory & Item Schema', definition: 'The core subject of this lesson, focusing on inventory & item schema.' }
+                    ],
+                    resources: [
+                        { title: 'Inventory & Item Schema Tutorial', url: 'https://www.youtube.com/results?search_query=Inventory%20%26%20Item%20Schema%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-DB-04',
@@ -692,9 +828,13 @@ export const gameDevelopment = {
                         before: 'Save wall.',
                         after: 'How would you store the state of a "Destructible Wall" that has 100 pieces? Storing every piece position is expensive. Propose a solution using "Seeds" or "Health States".'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'World State Storage', definition: 'The core subject of this lesson, focusing on world state storage.' }
+                    ],
+                    resources: [
+                        { title: 'World State Storage Tutorial', url: 'https://www.youtube.com/results?search_query=World%20State%20Storage%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-DB-05',
@@ -707,9 +847,13 @@ export const gameDevelopment = {
                         before: 'Pick database.',
                         after: 'Which database would you choose for: 1. Global Chat Logs (High volume, low value). 2. Player Inventory (High consistency, critical). Justify your choices.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'SQL vs NoSQL for Games', definition: 'The core subject of this lesson, focusing on sql vs nosql for games.' }
+                    ],
+                    resources: [
+                        { title: 'SQL vs NoSQL for Games Tutorial', url: 'https://www.youtube.com/results?search_query=SQL%20vs%20NoSQL%20for%20Games%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-DB-06',
@@ -722,9 +866,13 @@ export const gameDevelopment = {
                         before: 'Cache player.',
                         after: 'Write the logic for a "Player Session" cache. On Login: Load User from DB -> Put in Redis. On Game Action: Read/Update Redis. On Logout: Save Redis -> DB.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Caching & Real-Time Data', definition: 'The core subject of this lesson, focusing on caching & real-time data.' }
+                    ],
+                    resources: [
+                        { title: 'Caching & Real-Time Data Tutorial', url: 'https://www.youtube.com/results?search_query=Caching%20%26%20Real-Time%20Data%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-DB-07',
@@ -737,9 +885,13 @@ export const gameDevelopment = {
                         before: 'Fix sync error.',
                         after: 'Write the UI flow for a Cloud Save Conflict. Display: "Local Save (2 hours ago)" vs "Cloud Save (10 mins ago)". Options: "Use Local", "Use Cloud". Warn about data loss.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Backup & Save Systems', definition: 'The core subject of this lesson, focusing on backup & save systems.' }
+                    ],
+                    resources: [
+                        { title: 'Backup & Save Systems Tutorial', url: 'https://www.youtube.com/results?search_query=Backup%20%26%20Save%20Systems%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-DB-08',
@@ -752,9 +904,13 @@ export const gameDevelopment = {
                         before: 'Track deaths.',
                         after: 'Define the JSON payload for a "PlayerDeath" event. Include: `location_x`, `location_y`, `killer_id`, `weapon_used`, `time_alive`.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Analytics & Telemetry', definition: 'The core subject of this lesson, focusing on analytics & telemetry.' }
+                    ],
+                    resources: [
+                        { title: 'Analytics & Telemetry Tutorial', url: 'https://www.youtube.com/results?search_query=Analytics%20%26%20Telemetry%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-DB-09',
@@ -767,9 +923,13 @@ export const gameDevelopment = {
                         before: 'Table is huge.',
                         after: 'My `matches` table has 1 billion rows. Explain "Table Partitioning" by Date (e.g., `matches_2023_jan`) to speed up queries for recent games.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'DB Optimization', definition: 'The core subject of this lesson, focusing on db optimization.' }
+                    ],
+                    resources: [
+                        { title: 'DB Optimization Tutorial', url: 'https://www.youtube.com/results?search_query=DB%20Optimization%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -788,9 +948,13 @@ export const gameDevelopment = {
                         before: 'Make a hub.',
                         after: 'Describe the layout for a "Space Station Hub". Center: Command Deck. North: Hangar. East: Quarters. West: Lab. Use specific architectural terms (Corridors, Bulkheads).'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Module 6: Level Development', definition: 'The core subject of this lesson, focusing on module 6: level development.' }
+                    ],
+                    resources: [
+                        { title: 'Module 6: Level Development Tutorial', url: 'https://www.youtube.com/results?search_query=Module%206%3A%20Level%20Development%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-LV-02',
@@ -803,9 +967,13 @@ export const gameDevelopment = {
                         before: 'Random map.',
                         after: 'Explain the algorithm to generate a "Room and Corridor" dungeon. 1. Place random rectangles (Rooms). 2. Separate them so they don\'t overlap. 3. Connect them with lines (Corridors).'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Procedural Generation', definition: 'The core subject of this lesson, focusing on procedural generation.' }
+                    ],
+                    resources: [
+                        { title: 'Procedural Generation Tutorial', url: 'https://www.youtube.com/results?search_query=Procedural%20Generation%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-LV-03',
@@ -818,9 +986,13 @@ export const gameDevelopment = {
                         before: 'Make boss harder.',
                         after: 'How should the "Goblin King" boss change from Easy to Hard mode? Easy: Slow attacks. Hard: Adds "Minion Spawns", "Enrage Phase" at 50% HP, and faster attack speed.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Difficulty Scaling', definition: 'The core subject of this lesson, focusing on difficulty scaling.' }
+                    ],
+                    resources: [
+                        { title: 'Difficulty Scaling Tutorial', url: 'https://www.youtube.com/results?search_query=Difficulty%20Scaling%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-LV-04',
@@ -833,9 +1005,13 @@ export const gameDevelopment = {
                         before: 'Place enemies.',
                         after: 'Describe an ambush encounter in a narrow canyon. Player enters trigger -> Rockfall blocks exit -> Archers appear on cliffs -> Melee units charge from front.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Enemy Placement Logic', definition: 'The core subject of this lesson, focusing on enemy placement logic.' }
+                    ],
+                    resources: [
+                        { title: 'Enemy Placement Logic Tutorial', url: 'https://www.youtube.com/results?search_query=Enemy%20Placement%20Logic%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-LV-05',
@@ -848,9 +1024,13 @@ export const gameDevelopment = {
                         before: 'Steal the diamond.',
                         after: 'Break down a "Bank Heist" mission into 4 objectives. 1. Disable Alarms (Stealth). 2. Drill Vault (Timed defense). 3. Grab Loot. 4. Escape (Chase sequence).'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Mission Design', definition: 'The core subject of this lesson, focusing on mission design.' }
+                    ],
+                    resources: [
+                        { title: 'Mission Design Tutorial', url: 'https://www.youtube.com/results?search_query=Mission%20Design%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-LV-06',
@@ -863,9 +1043,13 @@ export const gameDevelopment = {
                         before: 'Organize project.',
                         after: 'Propose a Scene Hierarchy for a "City Level". Folders: `_Management`, `Environment_Static`, `Lights`, `Audio`, `NPCs`. Why is "Static" separated from "Dynamic"?'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Levels in Engine', definition: 'The core subject of this lesson, focusing on levels in engine.' }
+                    ],
+                    resources: [
+                        { title: 'Levels in Engine Tutorial', url: 'https://www.youtube.com/results?search_query=Levels%20in%20Engine%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-LV-07',
@@ -878,9 +1062,13 @@ export const gameDevelopment = {
                         before: 'Load map.',
                         after: 'Explain how to implement "Chunk Loading" based on player distance. If Player is in Chunk (0,0), load (0,1), (1,0), (-1,0), (0,-1). Unload anything > 2 chunks away.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'World Streaming', definition: 'The core subject of this lesson, focusing on world streaming.' }
+                    ],
+                    resources: [
+                        { title: 'World Streaming Tutorial', url: 'https://www.youtube.com/results?search_query=World%20Streaming%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-LV-08',
@@ -893,9 +1081,13 @@ export const gameDevelopment = {
                         before: 'Level is hard.',
                         after: '50% of players quit at the "Cliff Jump" section. Hypothesize 3 reasons (e.g., jump is too far, gap is not visible, controls input lag) and propose fixes.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Testing & Balancing', definition: 'The core subject of this lesson, focusing on testing & balancing.' }
+                    ],
+                    resources: [
+                        { title: 'Testing & Balancing Tutorial', url: 'https://www.youtube.com/results?search_query=Testing%20%26%20Balancing%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-LV-09',
@@ -908,9 +1100,13 @@ export const gameDevelopment = {
                         before: 'Laggy forest.',
                         after: 'My forest level has 10,000 individual trees and runs at 5 FPS. Suggest techniques to fix it. Keywords: GPU Instancing, LOD, Imposters, Billboard trees.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Level Optimization', definition: 'The core subject of this lesson, focusing on level optimization.' }
+                    ],
+                    resources: [
+                        { title: 'Level Optimization Tutorial', url: 'https://www.youtube.com/results?search_query=Level%20Optimization%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -929,9 +1125,13 @@ export const gameDevelopment = {
                         before: 'RPG logo.',
                         after: 'Write a prompt for a "Dark Fantasy RPG" logo. Text: "SHADOWFALL". Style: Stone texture, cracked letters, purple glow. Icon: A broken crown.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Module 7: Assets & Creative', definition: 'The core subject of this lesson, focusing on module 7: assets & creative.' }
+                    ],
+                    resources: [
+                        { title: 'Module 7: Assets & Creative Tutorial', url: 'https://www.youtube.com/results?search_query=Module%207%3A%20Assets%20%26%20Creative%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-AS-02',
@@ -944,9 +1144,13 @@ export const gameDevelopment = {
                         before: 'Cyber samurai.',
                         after: 'Generate a prompt for a "Cyberpunk Samurai" concept art. Gear: Neon katana, trench coat. Style: Anime, Cell-shaded. View: Full body, front and back view.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Character Concept Art', definition: 'The core subject of this lesson, focusing on character concept art.' }
+                    ],
+                    resources: [
+                        { title: 'Character Concept Art Tutorial', url: 'https://www.youtube.com/results?search_query=Character%20Concept%20Art%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-AS-03',
@@ -959,9 +1163,13 @@ export const gameDevelopment = {
                         before: 'Space sky.',
                         after: 'Write a prompt for a "Nebula Space" skybox. Format: Equirectangular 360 panorama. Colors: Deep violet, orange stars. Style: Realistic oil painting.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Environment Art', definition: 'The core subject of this lesson, focusing on environment art.' }
+                    ],
+                    resources: [
+                        { title: 'Environment Art Tutorial', url: 'https://www.youtube.com/results?search_query=Environment%20Art%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-AS-04',
@@ -974,9 +1182,13 @@ export const gameDevelopment = {
                         before: 'Brick texture.',
                         after: 'Generate a "Old Red Brick" seamless texture. include detailed description of the "Normal Map" (deep grout lines) and "Roughness Map" (dry, dusty surface).'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Textures & Materials', definition: 'The core subject of this lesson, focusing on textures & materials.' }
+                    ],
+                    resources: [
+                        { title: 'Textures & Materials Tutorial', url: 'https://www.youtube.com/results?search_query=Textures%20%26%20Materials%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-AS-05',
@@ -989,9 +1201,13 @@ export const gameDevelopment = {
                         before: 'Fantasy UI.',
                         after: 'Prompt for a "Fantasy UI Asset Sheet". Items: Health Globe, Mana Potion, Pergament Scroll background, Gold close button. Style: Hand-painted, Warcraft-esque.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'UI Assets', definition: 'The core subject of this lesson, focusing on ui assets.' }
+                    ],
+                    resources: [
+                        { title: 'UI Assets Tutorial', url: 'https://www.youtube.com/results?search_query=UI%20Assets%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-AS-06',
@@ -1004,9 +1220,13 @@ export const gameDevelopment = {
                         before: 'Boss song.',
                         after: 'Describe a "Final Boss" music track. BPM: 140 (Fast). Instruments: Orchestra + Heavy Metal Guitar. Mood: Urgent, Apocalyptic. Structure: Intro -> Main Loop -> Choing.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Music Generation', definition: 'The core subject of this lesson, focusing on music generation.' }
+                    ],
+                    resources: [
+                        { title: 'Music Generation Tutorial', url: 'https://www.youtube.com/results?search_query=Music%20Generation%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-AS-07',
@@ -1019,9 +1239,13 @@ export const gameDevelopment = {
                         before: 'Pew pew.',
                         after: 'Describe the layers needed for a heavy Laser Cannon. Layer 1: Electrical charge up (Hum). Layer 2: The blast (High pitch Zap). Layer 3: Cooling down (Steam hiss).'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Sound Effects (SFX)', definition: 'The core subject of this lesson, focusing on sound effects (sfx).' }
+                    ],
+                    resources: [
+                        { title: 'Sound Effects (SFX) Tutorial', url: 'https://www.youtube.com/results?search_query=Sound%20Effects%20(SFX)%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-AS-08',
@@ -1034,9 +1258,13 @@ export const gameDevelopment = {
                         before: 'File too big.',
                         after: 'My 4k texture is 20MB. Explain how to use "Compression Quality" and "Max Size" in Unity to reduce it to 2MB without ruining the look for a mobile game.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Asset Optimization', definition: 'The core subject of this lesson, focusing on asset optimization.' }
+                    ],
+                    resources: [
+                        { title: 'Asset Optimization Tutorial', url: 'https://www.youtube.com/results?search_query=Asset%20Optimization%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-AS-09',
@@ -1049,9 +1277,13 @@ export const gameDevelopment = {
                         before: 'Use free music.',
                         after: 'I found a song marked "Creative Commons Non-Commercial". Can I use it in my game if I plan to put ads in the game? Explain why or why not.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Licensing & Copyright', definition: 'The core subject of this lesson, focusing on licensing & copyright.' }
+                    ],
+                    resources: [
+                        { title: 'Licensing & Copyright Tutorial', url: 'https://www.youtube.com/results?search_query=Licensing%20%26%20Copyright%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -1070,9 +1302,13 @@ export const gameDevelopment = {
                         before: 'Car flies away.',
                         after: 'The car flies into space when hitting a curb. Provide the physics code for the wheel collider and new friction settings. Ask AI: "Why does high friction cause this explosion?"'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Module 8: Game Maintenance & Live Updates', definition: 'The core subject of this lesson, focusing on module 8: game maintenance & live updates.' }
+                    ],
+                    resources: [
+                        { title: 'Module 8: Game Maintenance & Live Updates Tutorial', url: 'https://www.youtube.com/results?search_query=Module%208%3A%20Game%20Maintenance%20%26%20Live%20Updates%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-MN-02',
@@ -1085,9 +1321,13 @@ export const gameDevelopment = {
                         before: 'Gun too strong.',
                         after: 'The "AWP" sniper kills in 1 shot and has no downsides. Propose 3 nerfs. 1. Lower damage (99). 2. Slower reload time. 3. Reduced movement speed while holding it.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Game Balance Updates', definition: 'The core subject of this lesson, focusing on game balance updates.' }
+                    ],
+                    resources: [
+                        { title: 'Game Balance Updates Tutorial', url: 'https://www.youtube.com/results?search_query=Game%20Balance%20Updates%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-MN-03',
@@ -1100,9 +1340,13 @@ export const gameDevelopment = {
                         before: 'Snow level.',
                         after: 'Outline a "Winter Festival" update. New assets: Snowman, Candy Cane Sword. New Mechanic: "Freezing" status effect. How does this affect existing fire enemies?'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Adding New Content', definition: 'The core subject of this lesson, focusing on adding new content.' }
+                    ],
+                    resources: [
+                        { title: 'Adding New Content Tutorial', url: 'https://www.youtube.com/results?search_query=Adding%20New%20Content%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-MN-04',
@@ -1115,9 +1359,13 @@ export const gameDevelopment = {
                         before: 'Game crashes after 1 hour.',
                         after: 'The game crashes on mobile after 30 mins. It happens when "Particles" allow spawning infinitely. Write a fix to limit particle count to 500 max.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Performance in Live Games', definition: 'The core subject of this lesson, focusing on performance in live games.' }
+                    ],
+                    resources: [
+                        { title: 'Performance in Live Games Tutorial', url: 'https://www.youtube.com/results?search_query=Performance%20in%20Live%20Games%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-MN-05',
@@ -1130,9 +1378,13 @@ export const gameDevelopment = {
                         before: 'Fixed stuff.',
                         after: 'Convert these git commits into Patch Notes: "Fix colliders", "Nerf shotgun", "New map". Output format: ## Balance, ## Bug Fixes, ## New Content.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Patch Notes Generation', definition: 'The core subject of this lesson, focusing on patch notes generation.' }
+                    ],
+                    resources: [
+                        { title: 'Patch Notes Generation Tutorial', url: 'https://www.youtube.com/results?search_query=Patch%20Notes%20Generation%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-MN-06',
@@ -1145,9 +1397,13 @@ export const gameDevelopment = {
                         before: 'People angry.',
                         after: 'Here are 50 negative reviews. Cluster them into top 3 issues. Example result: 1. Server Lag (40%), 2. Pay to Win (30%), 3. Bugs (30%).'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Player Feedback Analysis', definition: 'The core subject of this lesson, focusing on player feedback analysis.' }
+                    ],
+                    resources: [
+                        { title: 'Player Feedback Analysis Tutorial', url: 'https://www.youtube.com/results?search_query=Player%20Feedback%20Analysis%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-MN-07',
@@ -1160,9 +1416,13 @@ export const gameDevelopment = {
                         before: 'Server full.',
                         after: 'Design a queue system. User connects -> Check Server Load. If Load > 90%, send User number "5000 in queue". Update position every 10 seconds.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Server Scaling Growth', definition: 'The core subject of this lesson, focusing on server scaling growth.' }
+                    ],
+                    resources: [
+                        { title: 'Server Scaling Growth Tutorial', url: 'https://www.youtube.com/results?search_query=Server%20Scaling%20Growth%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-MN-08',
@@ -1175,9 +1435,13 @@ export const gameDevelopment = {
                         before: 'XP event.',
                         after: 'Create a plan for a Double XP event. 1. Server config `xp_multiplier = 2.0`. 2. UI notification "2X XP ACTIVE". 3. Push Notification to mobile users.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Event-Based Content Updates', definition: 'The core subject of this lesson, focusing on event-based content updates.' }
+                    ],
+                    resources: [
+                        { title: 'Event-Based Content Updates Tutorial', url: 'https://www.youtube.com/results?search_query=Event-Based%20Content%20Updates%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-MN-09',
@@ -1190,9 +1454,13 @@ export const gameDevelopment = {
                         before: 'Future plans.',
                         after: 'Generate a 4-Quarter Roadmap for an RPG. Q1: "Quality of Live" (Inventory sort). Q2: "The Lava Update" (New zone). Q3: "Guild Wars" (PvP). Q4: "Anniversary Event".'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Long-Term Game Roadmap', definition: 'The core subject of this lesson, focusing on long-term game roadmap.' }
+                    ],
+                    resources: [
+                        { title: 'Long-Term Game Roadmap Tutorial', url: 'https://www.youtube.com/results?search_query=Long-Term%20Game%20Roadmap%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -1211,9 +1479,13 @@ export const gameDevelopment = {
                         before: 'Code unity.',
                         after: 'Write a System Prompt for a Unity C# Assistant. Rules: 1. Use `[SerializeField]` instead of public. 2. Cache components in Awake. 3. Use `TextMeshPro` instead of `Text`.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Module 9: AI Tools & Usage', definition: 'The core subject of this lesson, focusing on module 9: ai tools & usage.' }
+                    ],
+                    resources: [
+                        { title: 'Module 9: AI Tools & Usage Tutorial', url: 'https://www.youtube.com/results?search_query=Module%209%3A%20AI%20Tools%20%26%20Usage%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-AI-02',
@@ -1226,9 +1498,13 @@ export const gameDevelopment = {
                         before: 'Make NPC.',
                         after: 'Design a 3-step prompt chain. 1. Create a "Blacksmith" character profile. 2. Write a "Greeting" dialogue line based on that profile. 3. Describe the "Shop Interior" based on the profile.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Prompt Chaining Pipelines', definition: 'The core subject of this lesson, focusing on prompt chaining pipelines.' }
+                    ],
+                    resources: [
+                        { title: 'Prompt Chaining Pipelines Tutorial', url: 'https://www.youtube.com/results?search_query=Prompt%20Chaining%20Pipelines%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-AI-03',
@@ -1241,9 +1517,13 @@ export const gameDevelopment = {
                         before: 'Use my event system.',
                         after: 'I have a method `EventManager.Trigger("name", data)`. Construct a prompt with 2 examples of triggering events (one for "DoorOpen", one for "EnemyDie") and ask it to write one for "PlayerJump".'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Few-Shot Mechanics', definition: 'The core subject of this lesson, focusing on few-shot mechanics.' }
+                    ],
+                    resources: [
+                        { title: 'Few-Shot Mechanics Tutorial', url: 'https://www.youtube.com/results?search_query=Few-Shot%20Mechanics%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-AI-04',
@@ -1256,9 +1536,13 @@ export const gameDevelopment = {
                         before: 'Fix error.',
                         after: 'I have `NullReferenceException` at line 40: `enemy.target.TakeDamage()`. Explain 3 possible reasons (e.g., enemy is null, target is null) and how to fix each.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Debugging & Bug Detection', definition: 'The core subject of this lesson, focusing on debugging & bug detection.' }
+                    ],
+                    resources: [
+                        { title: 'Debugging & Bug Detection Tutorial', url: 'https://www.youtube.com/results?search_query=Debugging%20%26%20Bug%20Detection%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-AI-05',
@@ -1271,9 +1555,13 @@ export const gameDevelopment = {
                         before: 'Who is the bad guy?',
                         after: 'Assume the AI has read my GDD. Ask: "Based on the History of the Elves section, why would the Elf King hate the Dwarves? Write a dialogue line reflecting this hatred."'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'RAG for Game Lore', definition: 'The core subject of this lesson, focusing on rag for game lore.' }
+                    ],
+                    resources: [
+                        { title: 'RAG for Game Lore Tutorial', url: 'https://www.youtube.com/results?search_query=RAG%20for%20Game%20Lore%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-AI-06',
@@ -1286,9 +1574,13 @@ export const gameDevelopment = {
                         before: 'Check puzzle.',
                         after: 'The AI designed a puzzle: "You need the Red Key to get the Blue Key, and the Blue Key to get the Red Key." Explain why this is a "Soft Lock" and ask for a fix.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Evaluating AI Playability', definition: 'The core subject of this lesson, focusing on evaluating ai playability.' }
+                    ],
+                    resources: [
+                        { title: 'Evaluating AI Playability Tutorial', url: 'https://www.youtube.com/results?search_query=Evaluating%20AI%20Playability%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-AI-07',
@@ -1301,9 +1593,13 @@ export const gameDevelopment = {
                         before: 'Make loot.',
                         after: 'Generate a JSON array of 10 RPG Weapons. Fields: Name, Damage (10-50), Rarity (Common-Legandary), and a Flavor Text description. Ensure higher rarity has higher damage.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'AI for Procedural Content', definition: 'The core subject of this lesson, focusing on ai for procedural content.' }
+                    ],
+                    resources: [
+                        { title: 'AI for Procedural Content Tutorial', url: 'https://www.youtube.com/results?search_query=AI%20for%20Procedural%20Content%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-AI-08',
@@ -1316,9 +1612,13 @@ export const gameDevelopment = {
                         before: 'Safe chat.',
                         after: 'I have an AI Shopkeeper. How do I prevent players from making him say offensive things? Design a "System Instruction" that forbids political or explicit topics.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'AI Ethics & Safety', definition: 'The core subject of this lesson, focusing on ai ethics & safety.' }
+                    ],
+                    resources: [
+                        { title: 'AI Ethics & Safety Tutorial', url: 'https://www.youtube.com/results?search_query=AI%20Ethics%20%26%20Safety%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'GS-AI-09',
@@ -1331,9 +1631,13 @@ export const gameDevelopment = {
                         before: 'Voice magic.',
                         after: 'Design a mechanic where players cast spells by speaking into the microphone. How do you map "Fireball!" (Voice) -> Text -> Game Action? What happens if the transcription fails?'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Building AI Features', definition: 'The core subject of this lesson, focusing on building ai features.' }
+                    ],
+                    resources: [
+                        { title: 'Building AI Features Tutorial', url: 'https://www.youtube.com/results?search_query=Building%20AI%20Features%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         }

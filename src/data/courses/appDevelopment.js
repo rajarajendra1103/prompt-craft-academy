@@ -25,7 +25,9 @@ export const appDevelopment = {
                         { term: 'CICO', definition: 'Context, Instruction, Constraint, Output - the framework for effective prompts.' },
                         { term: 'Zero-shot', definition: 'Prompting without providing examples.' }
                     ],
-                    resources: [],
+                    resources: [
+                        { title: 'App Development Tutorial', url: 'https://www.youtube.com/results?search_query=App%20Development%20tutorial', type: 'video' }
+                    ],
                     instructorNotes: 'Start with the basics. If they cant prompt, they cant build.'
                 },
                 {
@@ -42,7 +44,9 @@ export const appDevelopment = {
                     keywords: [
                         { term: 'Delimiters', definition: 'Characters like ### used to separate sections of a prompt.' }
                     ],
-                    resources: [],
+                    resources: [
+                        { title: 'Anatomy of an Effective Prompt Tutorial', url: 'https://www.youtube.com/results?search_query=Anatomy%20of%20an%20Effective%20Prompt%20tutorial', type: 'video' }
+                    ],
                     instructorNotes: 'Show how one word changes the output.'
                 },
                 {
@@ -59,7 +63,9 @@ export const appDevelopment = {
                     keywords: [
                         { term: 'Problem Statement', definition: 'A concise description of the issue that needs to be addressed.' }
                     ],
-                    resources: [],
+                    resources: [
+                        { title: 'Turning an App Idea into a User Need Tutorial', url: 'https://www.youtube.com/results?search_query=Turning%20an%20App%20Idea%20into%20a%20User%20Need%20tutorial', type: 'video' }
+                    ],
                     instructorNotes: 'Encourage students to be specific.'
                 },
                 {
@@ -77,8 +83,10 @@ export const appDevelopment = {
                         { term: 'MVP', definition: 'Minimum Viable Product - the version of a new product with just enough features to satisfy early customers.' },
                         { term: 'Scope Creep', definition: 'Uncontrolled growth in a project’s scope.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Idea to Feature List Tutorial', url: 'https://www.youtube.com/results?search_query=Idea%20to%20Feature%20List%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m1-05',
@@ -95,8 +103,10 @@ export const appDevelopment = {
                         { term: 'User Story', definition: 'An explanation of a software feature written from the perspective of the end user.' },
                         { term: 'Acceptance Criteria', definition: 'Conditions that a software product must satisfy to be accepted by a user.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Features to User Stories Tutorial', url: 'https://www.youtube.com/results?search_query=Features%20to%20User%20Stories%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m1-06',
@@ -112,8 +122,10 @@ export const appDevelopment = {
                     keywords: [
                         { term: 'Decomposition', definition: 'Breaking strictly complex problems into smaller, easier-to-solve parts.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Breaking Features into Tasks Tutorial', url: 'https://www.youtube.com/results?search_query=Breaking%20Features%20into%20Tasks%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m1-07',
@@ -129,8 +141,10 @@ export const appDevelopment = {
                     keywords: [
                         { term: 'Constraints', definition: 'Restrictions or limitations on the project.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Writing Constraints & Scope Tutorial', url: 'https://www.youtube.com/results?search_query=Writing%20Constraints%20%26%20Scope%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m1-08',
@@ -146,8 +160,10 @@ export const appDevelopment = {
                     keywords: [
                         { term: 'PRD', definition: 'Product Requirement Document - a document containing all the requirements to a certain product.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Creating a PRD Tutorial', url: 'https://www.youtube.com/results?search_query=Creating%20a%20PRD%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m1-09',
@@ -163,8 +179,10 @@ export const appDevelopment = {
                     keywords: [
                         { term: 'User Flow', definition: 'The path taken by a prototypical user on a website or app to complete a task.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'App Flow & Screen Mapping Tutorial', url: 'https://www.youtube.com/results?search_query=App%20Flow%20%26%20Screen%20Mapping%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m1-10',
@@ -180,8 +198,10 @@ export const appDevelopment = {
                     keywords: [
                         { term: 'T-Shirt Sizing', definition: 'A project estimation technique using abstract values (S, M, L) instead of hours.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Estimating Time & Resources Tutorial', url: 'https://www.youtube.com/results?search_query=Estimating%20Time%20%26%20Resources%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m1-11',
@@ -197,8 +217,10 @@ export const appDevelopment = {
                     keywords: [
                         { term: 'Gap Analysis', definition: 'Comparing actual performance with potential or desired performance.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Validating Ideas Tutorial', url: 'https://www.youtube.com/results?search_query=Validating%20Ideas%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -221,8 +243,10 @@ export const appDevelopment = {
                         { term: 'Flexbox', definition: 'A layout model that allows elements to align and distribute space within a container.' },
                         { term: 'SafeArea', definition: 'The portion of the screen not covered by global UI (notches, home indicator).' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Module 2: Frontend Prompts Tutorial', url: 'https://www.youtube.com/results?search_query=Module%202%3A%20Frontend%20Prompts%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m2-02',
@@ -239,8 +263,10 @@ export const appDevelopment = {
                         { term: 'Component', definition: 'A modular, reusable piece of UI.' },
                         { term: 'Props', definition: 'Inputs passed to a component to configure it.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Creating Components Tutorial', url: 'https://www.youtube.com/results?search_query=Creating%20Components%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m2-03',
@@ -257,8 +283,10 @@ export const appDevelopment = {
                         { term: 'State', definition: 'The memory of the application; data that changes over time.' },
                         { term: 'Context', definition: 'A way to pass data through the component tree without manually passing props.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'State Management Prompts Tutorial', url: 'https://www.youtube.com/results?search_query=State%20Management%20Prompts%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m2-04',
@@ -275,8 +303,10 @@ export const appDevelopment = {
                         { term: 'Adaptive Design', definition: 'GUI design that adapts to different screen sizes.' },
                         { term: 'Breakpoints', definition: 'Pixel widths where the layout shifts (e.g., Mobile to Tablet).' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Responsive Design Prompts Tutorial', url: 'https://www.youtube.com/results?search_query=Responsive%20Design%20Prompts%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m2-05',
@@ -293,8 +323,10 @@ export const appDevelopment = {
                         { term: 'TalkBack', definition: 'Google\'s screen reader for Android.' },
                         { term: 'HitSlop', definition: 'Extending the touchable area of a view without changing its visual size.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Accessibility in Frontend Tutorial', url: 'https://www.youtube.com/results?search_query=Accessibility%20in%20Frontend%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m2-06',
@@ -311,8 +343,10 @@ export const appDevelopment = {
                         { term: 'Micro-interaction', definition: 'Subtle functional animation (e.g., toggle switch slided).' },
                         { term: 'Interpolation', definition: 'Mapping a value (0 to 1) to a style (0deg to 360deg).' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Animations & Micro-interactions Tutorial', url: 'https://www.youtube.com/results?search_query=Animations%20%26%20Micro-interactions%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m2-07',
@@ -329,8 +363,10 @@ export const appDevelopment = {
                         { term: 'REST Client', definition: 'Tools/libraries (like Axios) to communicate with APIs.' },
                         { term: 'Promise', definition: 'An object representing the eventual completion or failure of an async operation.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'API Integration Prompts Tutorial', url: 'https://www.youtube.com/results?search_query=API%20Integration%20Prompts%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m2-08',
@@ -347,8 +383,10 @@ export const appDevelopment = {
                         { term: 'Unit Test', definition: 'Testing a single function or component in isolation.' },
                         { term: 'Mock', definition: 'Simulated object that mimics the behavior of real objects in controlled ways.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Frontend Testing Prompts Tutorial', url: 'https://www.youtube.com/results?search_query=Frontend%20Testing%20Prompts%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m2-09',
@@ -365,8 +403,10 @@ export const appDevelopment = {
                         { term: 'Tree Shaking', definition: 'Removing unused code from the final bundle.' },
                         { term: 'Memoization', definition: 'Caching the result of an expensive function call.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Performance Optimization Tutorial', url: 'https://www.youtube.com/results?search_query=Performance%20Optimization%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -385,9 +425,13 @@ export const appDevelopment = {
                         before: 'Draw music app.',
                         after: 'Create a text-based wireframe for a "Music Player" screen. Sections: Top (Album Art, huge), Middle (Song Title, Artist, Scrubber Bar), Bottom (Play/Pause controls, Shuffle, Repeat). Indicate relative sizes.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'App Development', definition: 'The core subject of this lesson, focusing on app development.' }
+                    ],
+                    resources: [
+                        { title: 'Module 3: UI / UX Prompts Tutorial', url: 'https://www.youtube.com/results?search_query=Module%203%3A%20UI%20%2F%20UX%20Prompts%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m3-02',
@@ -400,9 +444,13 @@ export const appDevelopment = {
                         before: 'Pick colors for app.',
                         after: 'Generate a Design System JSON for a "Wellness App". Palette: Calming Greens and Earth Tones. typography: "Open Sans". Spacing Scale: Base 8px (8, 16, 24, 32...).'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Design System Creation', definition: 'The core subject of this lesson, focusing on design system creation.' }
+                    ],
+                    resources: [
+                        { title: 'Design System Creation Tutorial', url: 'https://www.youtube.com/results?search_query=Design%20System%20Creation%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m3-03',
@@ -415,9 +463,13 @@ export const appDevelopment = {
                         before: 'Dark mode colors.',
                         after: 'Generate a Color Palette for a "Crypto Trading App" in Dark Mode. Background: Deep Slate (not pure black). Accents: Neon Green (Profit) and Red (Loss). Ensure text checks pass accessibility standards.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Color & Typography', definition: 'The core subject of this lesson, focusing on color & typography.' }
+                    ],
+                    resources: [
+                        { title: 'Color & Typography Tutorial', url: 'https://www.youtube.com/results?search_query=Color%20%26%20Typography%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m3-04',
@@ -430,9 +482,13 @@ export const appDevelopment = {
                         before: 'Make a FAB.',
                         after: 'Describe the visual design of a "Add New" FAB for a notes app. Shape: Circle. Color: Primary Brand. Icon: Plus sign (White). Shadow: Elevation 6. OnPress: Ripple effect and scale down 0.95.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Component Design', definition: 'The core subject of this lesson, focusing on component design.' }
+                    ],
+                    resources: [
+                        { title: 'Component Design Tutorial', url: 'https://www.youtube.com/results?search_query=Component%20Design%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m3-05',
@@ -445,9 +501,13 @@ export const appDevelopment = {
                         before: 'Profile card design.',
                         after: 'Describe a standard Profile Card for a Figma Component. Container: White, Radius 12px. Content: Horizontal Stack (Avatar 48px, Vertical Stack (Name Bold 16px, Role Gray 14px)). Right aligned: "Edit" Icon.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Figma Prompting', definition: 'The core subject of this lesson, focusing on figma prompting.' }
+                    ],
+                    resources: [
+                        { title: 'Figma Prompting Tutorial', url: 'https://www.youtube.com/results?search_query=Figma%20Prompting%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m3-06',
@@ -460,9 +520,13 @@ export const appDevelopment = {
                         before: 'Intro text.',
                         after: 'Write copy for 3 Onboarding Slides for a "Meditation App". Slide 1: Focus on Sleep. Slide 2: Focus on Focus. Slide 3: Call to Action to Subscribe. Max 10 words per headline, 20 words per body.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'UX Copywriting', definition: 'The core subject of this lesson, focusing on ux copywriting.' }
+                    ],
+                    resources: [
+                        { title: 'UX Copywriting Tutorial', url: 'https://www.youtube.com/results?search_query=UX%20Copywriting%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m3-07',
@@ -475,9 +539,13 @@ export const appDevelopment = {
                         before: 'Status colors.',
                         after: 'I have a status dot that is Green for Online and Red for Offline. How issues might a color-blind user have? Suggest a design change (e.g., shapes or icons) to make this accessible without relying on color.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Accessibility & Contrast', definition: 'The core subject of this lesson, focusing on accessibility & contrast.' }
+                    ],
+                    resources: [
+                        { title: 'Accessibility & Contrast Tutorial', url: 'https://www.youtube.com/results?search_query=Accessibility%20%26%20Contrast%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m3-08',
@@ -490,9 +558,13 @@ export const appDevelopment = {
                         before: 'User path.',
                         after: 'Create a User Journey Map for a user signing up for a "Banking App". Steps: Download -> Open -> Sign Up -> verify Identity -> Add Funds. Identify the "Friction" point (Identity Verification) and suggest a reassurance tooltip.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'User Journey Mapping', definition: 'The core subject of this lesson, focusing on user journey mapping.' }
+                    ],
+                    resources: [
+                        { title: 'User Journey Mapping Tutorial', url: 'https://www.youtube.com/results?search_query=User%20Journey%20Mapping%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m3-09',
@@ -505,9 +577,13 @@ export const appDevelopment = {
                         before: 'Check menu.',
                         after: 'Act as a 60-year-old user not tech-savvy. I present you a menu with icons: "Gear", "Hamburger", "Magnifying Glass". What do you think each one does? Where would you click to find "Help"?'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Usability Testing', definition: 'The core subject of this lesson, focusing on usability testing.' }
+                    ],
+                    resources: [
+                        { title: 'Usability Testing Tutorial', url: 'https://www.youtube.com/results?search_query=Usability%20Testing%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -526,9 +602,13 @@ export const appDevelopment = {
                         before: 'Backend for chat.',
                         after: 'I am building a WhatsApp clone. Compare Firebase (Firestore + Cloud Functions) vs Custom Backend (Node.js + Socket.io + MongoDB). Focus on: Scalability, Dev Speed, and Real-time latency. Reccomend one for a solo dev.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Module 4: Backend Prompts', definition: 'The core subject of this lesson, focusing on module 4: backend prompts.' }
+                    ],
+                    resources: [
+                        { title: 'Module 4: Backend Prompts Tutorial', url: 'https://www.youtube.com/results?search_query=Module%204%3A%20Backend%20Prompts%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m4-02',
@@ -541,9 +621,13 @@ export const appDevelopment = {
                         before: 'Get news api.',
                         after: 'Design a REST endpoint for `GET /feed`. Support pagination (page, limit). The response should be lightweight. Show the JSON structure. Include fields: id, title, summary, thumbnail_url (no full body text).'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'REST API Design', definition: 'The core subject of this lesson, focusing on rest api design.' }
+                    ],
+                    resources: [
+                        { title: 'REST API Design Tutorial', url: 'https://www.youtube.com/results?search_query=REST%20API%20Design%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m4-03',
@@ -556,9 +640,13 @@ export const appDevelopment = {
                         before: 'Apple login flow.',
                         after: 'Explain the sequence diagram for "Sign in with Apple" on iOS. 1. App requests credential. 2. Apple returns identityToken. 3. App sends token to YOUR backend. 4. Backend validates with Apple. 5. Backend issues Session Token.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Authentication & Authorization', definition: 'The core subject of this lesson, focusing on authentication & authorization.' }
+                    ],
+                    resources: [
+                        { title: 'Authentication & Authorization Tutorial', url: 'https://www.youtube.com/results?search_query=Authentication%20%26%20Authorization%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m4-04',
@@ -571,9 +659,13 @@ export const appDevelopment = {
                         before: 'Notes api code.',
                         after: 'Write a Node.js Express Router for a "Notes" resource. Implement: GET / (list), POST / (create), DELETE /:id. Use an in-memory array for storage in this example. Return 404 if ID not found.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'CRUD API Generation', definition: 'The core subject of this lesson, focusing on crud api generation.' }
+                    ],
+                    resources: [
+                        { title: 'CRUD API Generation Tutorial', url: 'https://www.youtube.com/results?search_query=CRUD%20API%20Generation%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m4-05',
@@ -586,9 +678,13 @@ export const appDevelopment = {
                         before: 'Handle errors.',
                         after: 'Create a global Error Handling Middleware for Express. If the error is a "ValidationError", return 400. If it\'s unknown, return 500 and log the stack trace. Ensure the JSON response format is consistent.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Error Handling & Validation', definition: 'The core subject of this lesson, focusing on error handling & validation.' }
+                    ],
+                    resources: [
+                        { title: 'Error Handling & Validation Tutorial', url: 'https://www.youtube.com/results?search_query=Error%20Handling%20%26%20Validation%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m4-06',
@@ -601,9 +697,13 @@ export const appDevelopment = {
                         before: 'Setup axios.',
                         after: 'Configure an Axios instance for React Native. Set the `baseURL` from `Config.API_URL`. Add an Interceptor to attach the "Authorization: Bearer <token>" header automatically from SecureStore.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Connecting Frontend to Backend', definition: 'The core subject of this lesson, focusing on connecting frontend to backend.' }
+                    ],
+                    resources: [
+                        { title: 'Connecting Frontend to Backend Tutorial', url: 'https://www.youtube.com/results?search_query=Connecting%20Frontend%20to%20Backend%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m4-07',
@@ -616,9 +716,13 @@ export const appDevelopment = {
                         before: 'Get weather.',
                         after: 'Wite a function to fetch weather data from OpenWeatherMap. Input: lat, long. Output: current temp in Celsius. Handle the case where the API key is invalid or quota is exceeded.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Third-Party API Integration', definition: 'The core subject of this lesson, focusing on third-party api integration.' }
+                    ],
+                    resources: [
+                        { title: 'Third-Party API Integration Tutorial', url: 'https://www.youtube.com/results?search_query=Third-Party%20API%20Integration%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m4-08',
@@ -631,9 +735,13 @@ export const appDevelopment = {
                         before: 'Test admin route.',
                         after: 'Write a Jest test for `DELETE /users/:id`. Scenario 1: Request with no token -> Expect 401. Scenario 2: Request with normal user token -> Expect 403. Scenario 3: Admin token -> Expect 200.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Backend Testing', definition: 'The core subject of this lesson, focusing on backend testing.' }
+                    ],
+                    resources: [
+                        { title: 'Backend Testing Tutorial', url: 'https://www.youtube.com/results?search_query=Backend%20Testing%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m4-09',
@@ -646,9 +754,13 @@ export const appDevelopment = {
                         before: 'Stop spam.',
                         after: 'Implement `express-rate-limit` on the Login route. Limit IPs to 5 requests per 15 minutes. Custom message: "Too many login attempts, please try again later".'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Security Best Practices', definition: 'The core subject of this lesson, focusing on security best practices.' }
+                    ],
+                    resources: [
+                        { title: 'Security Best Practices Tutorial', url: 'https://www.youtube.com/results?search_query=Security%20Best%20Practices%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -667,9 +779,13 @@ export const appDevelopment = {
                         before: 'Database for taxi app.',
                         after: 'Identify the core entities for a Ride Sharing app (like Uber). Entities should include User (Rider/Driver), Ride, Vehicle, and Payment. define the relationships (e.g., One User has many Rides).'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Module 5: DB Design & Prompts', definition: 'The core subject of this lesson, focusing on module 5: db design & prompts.' }
+                    ],
+                    resources: [
+                        { title: 'Module 5: DB Design & Prompts Tutorial', url: 'https://www.youtube.com/results?search_query=Module%205%3A%20DB%20Design%20%26%20Prompts%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m5-02',
@@ -682,9 +798,13 @@ export const appDevelopment = {
                         before: 'SQL for messages.',
                         after: 'Write SQL `CREATE TABLE` statements for a Chat System. Tables: `users`, `conversations`, `messages`. A Conversation has many Messages. A Message belongs to a User. Include constraints (NOT NULL).'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'SQL Schema Generation', definition: 'The core subject of this lesson, focusing on sql schema generation.' }
+                    ],
+                    resources: [
+                        { title: 'SQL Schema Generation Tutorial', url: 'https://www.youtube.com/results?search_query=SQL%20Schema%20Generation%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m5-03',
@@ -697,9 +817,13 @@ export const appDevelopment = {
                         before: 'Firestore layout.',
                         after: 'Design a Firestore structure for a Social App. Collections: `users`, `posts`. Explain why we might store the `latest_comment` directly on the `post` document (duplication) instead of querying a subcollection every time.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'NoSQL Schema Design', definition: 'The core subject of this lesson, focusing on nosql schema design.' }
+                    ],
+                    resources: [
+                        { title: 'NoSQL Schema Design Tutorial', url: 'https://www.youtube.com/results?search_query=NoSQL%20Schema%20Design%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m5-04',
@@ -712,9 +836,13 @@ export const appDevelopment = {
                         before: 'Search is slow.',
                         after: 'I have a query `db.products.find({ category: "electronics", price: { $lt: 500 } })`. It is slow. What Index should I create in MongoDB to optimize this? Explain Compound Indexes.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Indexing & Performance', definition: 'The core subject of this lesson, focusing on indexing & performance.' }
+                    ],
+                    resources: [
+                        { title: 'Indexing & Performance Tutorial', url: 'https://www.youtube.com/results?search_query=Indexing%20%26%20Performance%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m5-05',
@@ -727,9 +855,13 @@ export const appDevelopment = {
                         before: 'Add avatar to user.',
                         after: 'Write a SQL migration script to add an `avatar_url` column to the `users` table. Include the `UP` (ALTER TABLE ADD) and `DOWN` (ALTER TABLE DROP) logic.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Migration Scripts', definition: 'The core subject of this lesson, focusing on migration scripts.' }
+                    ],
+                    resources: [
+                        { title: 'Migration Scripts Tutorial', url: 'https://www.youtube.com/results?search_query=Migration%20Scripts%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m5-06',
@@ -742,9 +874,13 @@ export const appDevelopment = {
                         before: 'Prisma file.',
                         after: 'Create a `schema.prisma` file for a "Task Manager". Models: User, Project, Task. Relations: User owns Projects, Project has many Tasks. Use UUIDs for IDs.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'ORM Model Generation', definition: 'The core subject of this lesson, focusing on orm model generation.' }
+                    ],
+                    resources: [
+                        { title: 'ORM Model Generation Tutorial', url: 'https://www.youtube.com/results?search_query=ORM%20Model%20Generation%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m5-07',
@@ -757,9 +893,13 @@ export const appDevelopment = {
                         before: 'Backup plan.',
                         after: 'Draft a Backup & Recovery strategy for a commercial app. Include: Frequency of backups (Daily/Hourly), Retention policy (30 days), and the exact command to restore a Postgres dump.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Backup & Recovery Strategy', definition: 'The core subject of this lesson, focusing on backup & recovery strategy.' }
+                    ],
+                    resources: [
+                        { title: 'Backup & Recovery Strategy Tutorial', url: 'https://www.youtube.com/results?search_query=Backup%20%26%20Recovery%20Strategy%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m5-08',
@@ -772,9 +912,13 @@ export const appDevelopment = {
                         before: 'Count sales.',
                         after: 'Write a SQL query to find the "Top 5 Spenders" last month. Join `users` and `orders`. Sum the `total` column. Group by User ID. Order by descending sum.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Sample Queries & Optimization', definition: 'The core subject of this lesson, focusing on sample queries & optimization.' }
+                    ],
+                    resources: [
+                        { title: 'Sample Queries & Optimization Tutorial', url: 'https://www.youtube.com/results?search_query=Sample%20Queries%20%26%20Optimization%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m5-09',
@@ -787,9 +931,13 @@ export const appDevelopment = {
                         before: 'Add redis.',
                         after: 'Write a Node.js function that checks Redis for `user_123`. If found, return it. If not, fetch from DB, save to Redis with 1 hour expiry (TTL), and return it.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Real-time Data & Caching', definition: 'The core subject of this lesson, focusing on real-time data & caching.' }
+                    ],
+                    resources: [
+                        { title: 'Real-time Data & Caching Tutorial', url: 'https://www.youtube.com/results?search_query=Real-time%20Data%20%26%20Caching%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -808,9 +956,13 @@ export const appDevelopment = {
                         before: 'Checklist for launch.',
                         after: 'Create a robust "Go-Live Checklist" for a React Native Android app. Include: Update Version Number, Generate Signed APK, Remove console.logs, Test on real device.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Module 6: Deployment & Tooling', definition: 'The core subject of this lesson, focusing on module 6: deployment & tooling.' }
+                    ],
+                    resources: [
+                        { title: 'Module 6: Deployment & Tooling Tutorial', url: 'https://www.youtube.com/results?search_query=Module%206%3A%20Deployment%20%26%20Tooling%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m6-02',
@@ -823,9 +975,13 @@ export const appDevelopment = {
                         before: 'Docker file.',
                         after: 'Write a `Dockerfile` for a Node.js Express app. Use a multi-stage build. 1. Build stage (Install devDependencies). 2. Production stage (Copy only `dist` and `node_modules`, use `node:alpine` base).'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Dockerfile Generation', definition: 'The core subject of this lesson, focusing on dockerfile generation.' }
+                    ],
+                    resources: [
+                        { title: 'Dockerfile Generation Tutorial', url: 'https://www.youtube.com/results?search_query=Dockerfile%20Generation%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m6-03',
@@ -838,9 +994,13 @@ export const appDevelopment = {
                         before: 'Docker compose.',
                         after: 'Create a `docker-compose.yml` file. Services: 1. `api` (build from ./). 2. `db` (Postgres 14). 3. `redis`. Ensure the API waits for the DB to be ready.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Docker Compose for Full Stack', definition: 'The core subject of this lesson, focusing on docker compose for full stack.' }
+                    ],
+                    resources: [
+                        { title: 'Docker Compose for Full Stack Tutorial', url: 'https://www.youtube.com/results?search_query=Docker%20Compose%20for%20Full%20Stack%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m6-04',
@@ -853,9 +1013,13 @@ export const appDevelopment = {
                         before: 'Github action test.',
                         after: 'Create a `.github/workflows/test.yml`. Trigger: Push to any branch. Job: 1. Checkout code. 2. Install Node. 3. `npm install`. 4. `npm test`. Fail if tests fail.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'CI/CD with GitHub Actions', definition: 'The core subject of this lesson, focusing on ci/cd with github actions.' }
+                    ],
+                    resources: [
+                        { title: 'CI/CD with GitHub Actions Tutorial', url: 'https://www.youtube.com/results?search_query=CI%2FCD%20with%20GitHub%20Actions%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m6-05',
@@ -868,9 +1032,13 @@ export const appDevelopment = {
                         before: 'Handle secrets.',
                         after: 'Write a helper file `config.js` that loads environment variables. It should throw an Error if critical variables (like DB_PASSWORD) are missing on startup.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Environment Variables', definition: 'The core subject of this lesson, focusing on environment variables.' }
+                    ],
+                    resources: [
+                        { title: 'Environment Variables Tutorial', url: 'https://www.youtube.com/results?search_query=Environment%20Variables%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m6-06',
@@ -883,9 +1051,13 @@ export const appDevelopment = {
                         before: 'Deploy to render.',
                         after: 'Provide a step-by-step guide to deploy a Node.js Docker container to Render.com. Include steps for: Connecting GitHub, Setting Environment Variables, and Adding a Health Check path.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Cloud Deployment', definition: 'The core subject of this lesson, focusing on cloud deployment.' }
+                    ],
+                    resources: [
+                        { title: 'Cloud Deployment Tutorial', url: 'https://www.youtube.com/results?search_query=Cloud%20Deployment%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m6-07',
@@ -898,9 +1070,13 @@ export const appDevelopment = {
                         before: 'Add logs.',
                         after: 'Configure `winston` logger for Node.js. In Development: Log to Console with colors. In Production: Log to a file `error.log` in JSON format.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Logging & Monitoring', definition: 'The core subject of this lesson, focusing on logging & monitoring.' }
+                    ],
+                    resources: [
+                        { title: 'Logging & Monitoring Tutorial', url: 'https://www.youtube.com/results?search_query=Logging%20%26%20Monitoring%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m6-08',
@@ -913,9 +1089,13 @@ export const appDevelopment = {
                         before: 'Scale app.',
                         after: 'My API is crashing under load. Explain how I can introduce NGINX as a Load Balancer in front of 3 instances of my Node.js API to distribute the traffic.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Scaling & Load Handling', definition: 'The core subject of this lesson, focusing on scaling & load handling.' }
+                    ],
+                    resources: [
+                        { title: 'Scaling & Load Handling Tutorial', url: 'https://www.youtube.com/results?search_query=Scaling%20%26%20Load%20Handling%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m6-09',
@@ -928,9 +1108,13 @@ export const appDevelopment = {
                         before: 'Safe deploy.',
                         after: 'Explain the concept of Blue/Green deployment to a junior dev. Draw a text diagram showing the Router, Blue Environment (Active), and Green Environment (Staging).'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Rollback Strategies', definition: 'The core subject of this lesson, focusing on rollback strategies.' }
+                    ],
+                    resources: [
+                        { title: 'Rollback Strategies Tutorial', url: 'https://www.youtube.com/results?search_query=Rollback%20Strategies%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -949,9 +1133,13 @@ export const appDevelopment = {
                         before: 'Logo for fitness.',
                         after: 'Write 3 prompts for an AI Image Generator for a "Fitness App" logo. Style: Minimalist, Abstract. Elements: Lightning Bolt and Heart. Colors: Neon Blue. Aspect Ratio: 1:1.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Module 7: Assets & Creative Prompts', definition: 'The core subject of this lesson, focusing on module 7: assets & creative prompts.' }
+                    ],
+                    resources: [
+                        { title: 'Module 7: Assets & Creative Prompts Tutorial', url: 'https://www.youtube.com/results?search_query=Module%207%3A%20Assets%20%26%20Creative%20Prompts%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m7-02',
@@ -964,9 +1152,13 @@ export const appDevelopment = {
                         before: 'Icons for menu.',
                         after: 'Write a prompt to generate a sheet of 5 User Interface icons: Home, Search, Settings, Profile, Notification. Style: Rounded line art, 2px stroke weight, black on white.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Icon Set Generation', definition: 'The core subject of this lesson, focusing on icon set generation.' }
+                    ],
+                    resources: [
+                        { title: 'Icon Set Generation Tutorial', url: 'https://www.youtube.com/results?search_query=Icon%20Set%20Generation%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m7-03',
@@ -979,9 +1171,13 @@ export const appDevelopment = {
                         before: 'Show app on phone.',
                         after: 'Write a prompt to generate a 3D render of a floating iPhone 14 Pro displaying a generic "Dashboard" screen. Background: Soft gradient purple. Lighting: Studio lighting.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'App Screenshots & Mockups', definition: 'The core subject of this lesson, focusing on app screenshots & mockups.' }
+                    ],
+                    resources: [
+                        { title: 'App Screenshots & Mockups Tutorial', url: 'https://www.youtube.com/results?search_query=App%20Screenshots%20%26%20Mockups%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m7-04',
@@ -994,9 +1190,13 @@ export const appDevelopment = {
                         before: 'Image for website.',
                         after: 'Write a prompt for a website hero image. Subject: Diverse team collaborating in a modern office with laptops. Mood: Energetic, Professional. Composition: Subject on left, empty space on right for text.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Hero Images & Marketing', definition: 'The core subject of this lesson, focusing on hero images & marketing.' }
+                    ],
+                    resources: [
+                        { title: 'Hero Images & Marketing Tutorial', url: 'https://www.youtube.com/results?search_query=Hero%20Images%20%26%20Marketing%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m7-05',
@@ -1009,9 +1209,13 @@ export const appDevelopment = {
                         before: 'Image for no results.',
                         after: 'Write a prompt for an empty state illustration. Concept: A detective looking at an empty box with a magnifying glass. Style: Flat Vector, pastel colors, clean lines. Meaning: "Search returned no results".'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'App UI Illustration', definition: 'The core subject of this lesson, focusing on app ui illustration.' }
+                    ],
+                    resources: [
+                        { title: 'App UI Illustration Tutorial', url: 'https://www.youtube.com/results?search_query=App%20UI%20Illustration%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m7-06',
@@ -1024,9 +1228,13 @@ export const appDevelopment = {
                         before: 'Sound for win.',
                         after: 'Describe a sound effect for a "Task Complete" action. It should be: Short (<1s), Uplifting, digital chime, in the key of C Major.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Sound Effects & Music', definition: 'The core subject of this lesson, focusing on sound effects & music.' }
+                    ],
+                    resources: [
+                        { title: 'Sound Effects & Music Tutorial', url: 'https://www.youtube.com/results?search_query=Sound%20Effects%20%26%20Music%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m7-07',
@@ -1039,9 +1247,13 @@ export const appDevelopment = {
                         before: 'Brand rules.',
                         after: 'Draft a "Tone of Voice" guideline for a FinTech app. The voice should be: Trustworthy but Modern. Confident but not Arrogant. Give 3 examples of "Do this, Not that".'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Branding Guidelines', definition: 'The core subject of this lesson, focusing on branding guidelines.' }
+                    ],
+                    resources: [
+                        { title: 'Branding Guidelines Tutorial', url: 'https://www.youtube.com/results?search_query=Branding%20Guidelines%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m7-08',
@@ -1054,9 +1266,13 @@ export const appDevelopment = {
                         before: 'What images to save?',
                         after: 'List the required asset exports for an iOS App Icon. detailed all the required resolutions (e.g., 20px, 29px... 1024px) that need to be generated.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Assets for Production', definition: 'The core subject of this lesson, focusing on assets for production.' }
+                    ],
+                    resources: [
+                        { title: 'Assets for Production Tutorial', url: 'https://www.youtube.com/results?search_query=Assets%20for%20Production%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m7-09',
@@ -1069,9 +1285,13 @@ export const appDevelopment = {
                         before: 'Can I sell this?',
                         after: 'Explain the legal risk of using an AI-generated logo that looks exactly like the Nike Swoosh. What is "Trademark Infringement" vs "Copyright"?'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Copyright & Licensing', definition: 'The core subject of this lesson, focusing on copyright & licensing.' }
+                    ],
+                    resources: [
+                        { title: 'Copyright & Licensing Tutorial', url: 'https://www.youtube.com/results?search_query=Copyright%20%26%20Licensing%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -1090,9 +1310,13 @@ export const appDevelopment = {
                         before: 'Act as genius.',
                         after: 'Write a full System Prompt for a "Strict Code Reviewer" persona. Rules: 1. Only point out security flaws. 2. Be concise. 3. Ignore style issues. 4. Always suggest a fix code snippet.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Module 8: AI Tools & Usage', definition: 'The core subject of this lesson, focusing on module 8: ai tools & usage.' }
+                    ],
+                    resources: [
+                        { title: 'Module 8: AI Tools & Usage Tutorial', url: 'https://www.youtube.com/results?search_query=Module%208%3A%20AI%20Tools%20%26%20Usage%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m8-02',
@@ -1105,9 +1329,13 @@ export const appDevelopment = {
                         before: 'Write blog chain.',
                         after: 'Design a 3-step Prompt Chain to write a technical article. Prompt 1: Generate Outline. Prompt 2: Write Draft based on Outline. Prompt 3: Edit Draft for SEO and Tone.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Prompt Chaining', definition: 'The core subject of this lesson, focusing on prompt chaining.' }
+                    ],
+                    resources: [
+                        { title: 'Prompt Chaining Tutorial', url: 'https://www.youtube.com/results?search_query=Prompt%20Chaining%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m8-03',
@@ -1120,9 +1348,13 @@ export const appDevelopment = {
                         before: 'Write SQL from text.',
                         after: 'Construct a Few-Shot prompt to teach the AI a custom SQL dialect. Provide 3 examples of "Natural Language -> Custom SQL" pairs, then ask it to solve a 4th one.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Few-Shot Prompting', definition: 'The core subject of this lesson, focusing on few-shot prompting.' }
+                    ],
+                    resources: [
+                        { title: 'Few-Shot Prompting Tutorial', url: 'https://www.youtube.com/results?search_query=Few-Shot%20Prompting%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m8-04',
@@ -1135,9 +1367,13 @@ export const appDevelopment = {
                         before: 'Fix broken code.',
                         after: 'The AI suggested `import { MagicButton } from "react-native-magic"`, but that library does not exist. Write a follow-up prompt to correct the AI and ask for a standard solution using `TouchableOpacity`.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Debugging Bad Outputs', definition: 'The core subject of this lesson, focusing on debugging bad outputs.' }
+                    ],
+                    resources: [
+                        { title: 'Debugging Bad Outputs Tutorial', url: 'https://www.youtube.com/results?search_query=Debugging%20Bad%20Outputs%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m8-05',
@@ -1150,9 +1386,13 @@ export const appDevelopment = {
                         before: 'Use new api.',
                         after: 'I want to use a brand new library that came out yesterday. I will paste the "Getting Started" documentation below. Based ONLY on that text, write a "Hello World" component. [Paste Docs Hint].'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'RAG for Projects', definition: 'The core subject of this lesson, focusing on rag for projects.' }
+                    ],
+                    resources: [
+                        { title: 'RAG for Projects Tutorial', url: 'https://www.youtube.com/results?search_query=RAG%20for%20Projects%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m8-06',
@@ -1165,9 +1405,13 @@ export const appDevelopment = {
                         before: 'Save prompts.',
                         after: 'Create a simple JSON structure to store Prompt Versions. Fields: `id`, `version`, `prompt_text`, `model_used`, `success_rating`.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Versioning Prompts', definition: 'The core subject of this lesson, focusing on versioning prompts.' }
+                    ],
+                    resources: [
+                        { title: 'Versioning Prompts Tutorial', url: 'https://www.youtube.com/results?search_query=Versioning%20Prompts%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m8-07',
@@ -1180,9 +1424,13 @@ export const appDevelopment = {
                         before: 'Check this code.',
                         after: 'The AI generated a regex for email validation: `/.+@.+\..+/`. Explain why this is insufficient/bad and write a critique prompt asking the AI to improve it to RFC standards.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Evaluating AI Responses', definition: 'The core subject of this lesson, focusing on evaluating ai responses.' }
+                    ],
+                    resources: [
+                        { title: 'Evaluating AI Responses Tutorial', url: 'https://www.youtube.com/results?search_query=Evaluating%20AI%20Responses%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m8-08',
@@ -1195,9 +1443,13 @@ export const appDevelopment = {
                         before: 'Is it safe?',
                         after: 'I need to debug a customer database error. Is it safe to paste the CSV export of my users into ChatGPT to ask for SQL queries? Explain the risks and the correct way to do it (Anonymization).'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Security & Ethics', definition: 'The core subject of this lesson, focusing on security & ethics.' }
+                    ],
+                    resources: [
+                        { title: 'Security & Ethics Tutorial', url: 'https://www.youtube.com/results?search_query=Security%20%26%20Ethics%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'app-m8-09',
@@ -1210,9 +1462,13 @@ export const appDevelopment = {
                         before: 'Make a bot.',
                         after: 'Design the architecture for a "Travel Assistant" feature in my app. Frontend: React Native Chat UI. Backend: Node.js Proxy calling OpenAI API. Explain how to handle the "Stream" of text so the user sees words appear in real-time.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Building AI Features', definition: 'The core subject of this lesson, focusing on building ai features.' }
+                    ],
+                    resources: [
+                        { title: 'Building AI Features Tutorial', url: 'https://www.youtube.com/results?search_query=Building%20AI%20Features%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         }

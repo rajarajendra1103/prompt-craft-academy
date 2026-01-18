@@ -25,7 +25,9 @@ export const webDevelopment = {
                         { term: 'CICO Framework', definition: 'Context, Instruction, Constraint, Output - the 4 pillars of a good prompt.' },
                         { term: 'Zero-shot', definition: 'Asking the AI to do something without providing examples.' }
                     ],
-                    resources: [],
+                    resources: [
+                        { title: 'Web Development Tutorial', url: 'https://www.youtube.com/results?search_query=Web%20Development%20tutorial', type: 'video' }
+                    ],
                     instructorNotes: 'Emphasize that the AI has read the entire internet but needs you to filter that knowledge.'
                 },
                 {
@@ -42,7 +44,9 @@ export const webDevelopment = {
                     keywords: [
                         { term: 'Delimiters', definition: 'Symbols like ###, """, or --- used to separate parts of a prompt.' }
                     ],
-                    resources: [],
+                    resources: [
+                        { title: 'Anatomy of an Effective Prompt Tutorial', url: 'https://www.youtube.com/results?search_query=Anatomy%20of%20an%20Effective%20Prompt%20tutorial', type: 'video' }
+                    ],
                     instructorNotes: 'Show how changing one word (e.g., "modern" vs "brutalist") completely changes the output.'
                 },
                 {
@@ -59,7 +63,9 @@ export const webDevelopment = {
                     keywords: [
                         { term: 'Reverse Formatting', definition: 'Asking the AI to ask YOU questions.' }
                     ],
-                    resources: [],
+                    resources: [
+                        { title: 'Converting a Website Idea into a Clear Goal Tutorial', url: 'https://www.youtube.com/results?search_query=Converting%20a%20Website%20Idea%20into%20a%20Clear%20Goal%20tutorial', type: 'video' }
+                    ],
                     instructorNotes: 'This is a powerful technique for clients who don\'t know what they want.'
                 },
                 {
@@ -73,9 +79,13 @@ export const webDevelopment = {
                         before: 'Plan an online store.',
                         after: 'Plan the technical architecture for a small E-commerce site selling digital art. It requires: User Authentication (Auth0), a Database for products (PostgreSQL), Payment Processing (Stripe), and a shopping cart state (Redux). Suggest a folder structure.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Web Development', definition: 'The core subject of this lesson, focusing on web development.' }
+                    ],
+                    resources: [
+                        { title: 'Website Type Identification Tutorial', url: 'https://www.youtube.com/results?search_query=Website%20Type%20Identification%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'web-m1-06',
@@ -91,8 +101,10 @@ export const webDevelopment = {
                     keywords: [
                         { term: 'MoSCoW Method', definition: 'Must have, Should have, Could have, Won\'t have.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Generating Feature Lists Tutorial', url: 'https://www.youtube.com/results?search_query=Generating%20Feature%20Lists%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'web-m1-07',
@@ -105,9 +117,13 @@ export const webDevelopment = {
                         before: 'Who uses a fitness app?',
                         after: 'Create 3 detailed user personas for a "Gamified Fitness Tracker" app. Include their Name, Age, Main Motivation (e.g., weight loss, muscle gain), Technical Proficiency, and a "Frustration" they have with current market solutions.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Generating Feature Lists', definition: 'The core subject of this lesson, focusing on generating feature lists.' }
+                    ],
+                    resources: [
+                        { title: 'Creating User Personas Tutorial', url: 'https://www.youtube.com/results?search_query=Creating%20User%20Personas%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'web-m1-08',
@@ -120,9 +136,13 @@ export const webDevelopment = {
                         before: 'Make a menu for a restaurant site.',
                         after: 'Create a hierarchical sitemap for a luxury Italian restaurant website. Include: Home, Menu (nested with Lunch/Dinner/Wine), Reservations (with booking form), About Us, and Contact. Output as a Markdown indented list.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Website Sitemap & Page Structure', definition: 'The core subject of this lesson, focusing on website sitemap & page structure.' }
+                    ],
+                    resources: [
+                        { title: 'Website Sitemap & Page Structure Tutorial', url: 'https://www.youtube.com/results?search_query=Website%20Sitemap%20%26%20Page%20Structure%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'web-m1-09',
@@ -135,9 +155,13 @@ export const webDevelopment = {
                         before: 'How does login work?',
                         after: 'Write detailed functional requirements for a "Forgot Password" flow. Include steps for: 1. User enters email, 2. System validates format, 3. System checks database, 4. System sends magic link (or error message). Include security timeout constraints.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Writing Functional Requirements', definition: 'The core subject of this lesson, focusing on writing functional requirements.' }
+                    ],
+                    resources: [
+                        { title: 'Writing Functional Requirements Tutorial', url: 'https://www.youtube.com/results?search_query=Writing%20Functional%20Requirements%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'web-m1-10',
@@ -150,9 +174,13 @@ export const webDevelopment = {
                         before: 'Write text for a travel site.',
                         after: 'Write 3 variations of a Hero Section headline and subheadline for an "Adventure Travel Agency". Tone: Exciting, Urgent, Bold. Variation 1: Short & Punchy. Variation 2: Emotional & Story-driven. Variation 3: Focus on Discounts.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Content Strategy & Prompts', definition: 'The core subject of this lesson, focusing on content strategy & prompts.' }
+                    ],
+                    resources: [
+                        { title: 'Content Strategy & Prompts Tutorial', url: 'https://www.youtube.com/results?search_query=Content%20Strategy%20%26%20Prompts%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'web-m1-11',
@@ -165,9 +193,13 @@ export const webDevelopment = {
                         before: 'What do I do first?',
                         after: 'Based on the Restaurant Website sitemap we created, break the development process into small, actionable tasks. Organize them into columns: "Setup", "Frontend Components", "Backend APIs", "Content Population", "Testing".'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Breaking Website into Tasks', definition: 'The core subject of this lesson, focusing on breaking website into tasks.' }
+                    ],
+                    resources: [
+                        { title: 'Breaking Website into Tasks Tutorial', url: 'https://www.youtube.com/results?search_query=Breaking%20Website%20into%20Tasks%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'web-m1-12',
@@ -180,9 +212,13 @@ export const webDevelopment = {
                         before: 'Do SEO for my blog post.',
                         after: 'Generate the SEO Title Tag (max 60 chars) and Meta Description (max 160 chars) for a blog post titled "10 Tips for React Performance". Target keywords: React UseMemo, Web Vitals, Frontend Optimization.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'SEO Requirements & Keywords', definition: 'The core subject of this lesson, focusing on seo requirements & keywords.' }
+                    ],
+                    resources: [
+                        { title: 'SEO Requirements & Keywords Tutorial', url: 'https://www.youtube.com/results?search_query=SEO%20Requirements%20%26%20Keywords%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -202,8 +238,10 @@ export const webDevelopment = {
                         after: 'Create the HTML5 structure for a single blog post. Use <article> for the main content, <header> for the title/meta, <aside> for the sidebar, and <footer> for author bio. Do not use CSS classes yet, just pure structural HTML.'
                     },
                     keywords: [{ term: 'Semantic HTML', definition: 'Tags that convey meaning (e.g., <nav>) rather than just presentation (e.g., <div>).' }],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Module 2: Frontend Prompts (UI Coding) Tutorial', url: 'https://www.youtube.com/results?search_query=Module%202%3A%20Frontend%20Prompts%20(UI%20Coding)%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-FE-02',
@@ -216,9 +254,13 @@ export const webDevelopment = {
                         before: 'Style this card with Tailwind.',
                         after: 'Style the following HTML card using TailwindCSS. Give it a soft shadow (shadow-lg), rounded corners (rounded-xl), and a white background. On hover, translate it up slightly (-translate-y-1). Use padding-6.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Module 2: Frontend Prompts (UI Coding)', definition: 'The core subject of this lesson, focusing on module 2: frontend prompts (ui coding).' }
+                    ],
+                    resources: [
+                        { title: 'CSS Styling with Tailwind / Bootstrap Tutorial', url: 'https://www.youtube.com/results?search_query=CSS%20Styling%20with%20Tailwind%20%2F%20Bootstrap%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-FE-03',
@@ -231,7 +273,11 @@ export const webDevelopment = {
                         before: 'Make this menu responsive.',
                         after: 'Modify this CSS Grid layout to be a single column on mobile (grid-cols-1) and three columns on desktop (lg:grid-cols-3) using Tailwind classes.'
                     },
-                    keywords: [], resources: [], instructorNotes: ''
+                    keywords: [
+                        { term: 'Responsive Design Prompts', definition: 'The core subject of this lesson, focusing on responsive design prompts.' }
+                    ], resources: [
+                        { title: 'Responsive Design Prompts Tutorial', url: 'https://www.youtube.com/results?search_query=Responsive%20Design%20Prompts%20tutorial', type: 'video' }
+                    ], instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-FE-04',
@@ -248,8 +294,10 @@ export const webDevelopment = {
                         { term: 'Props', definition: 'ReadOnly inputs passed from a parent component to a child component.' },
                         { term: 'State', definition: 'Data managed within the component that can change over time.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'React / Vue Component Generation Tutorial', url: 'https://www.youtube.com/results?search_query=React%20%2F%20Vue%20Component%20Generation%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-FE-05',
@@ -266,8 +314,10 @@ export const webDevelopment = {
                         { term: 'Hamburger Menu', definition: 'The three-line icon used to toggle a navigation menu on mobile devices.' },
                         { term: 'Sticky Positioning', definition: 'CSS property that fixes an element to the top of the viewport when scrolling.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Navigation Bar & Footer Design Tutorial', url: 'https://www.youtube.com/results?search_query=Navigation%20Bar%20%26%20Footer%20Design%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-FE-06',
@@ -284,8 +334,10 @@ export const webDevelopment = {
                         { term: 'Controlled Component', definition: 'A form element whose value is controlled by React state.' },
                         { term: 'Regex', definition: 'Regular Expression - a sequence of characters that specifies a search pattern (used for validation).' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Form Creation & Validation Tutorial', url: 'https://www.youtube.com/results?search_query=Form%20Creation%20%26%20Validation%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-FE-07',
@@ -302,8 +354,10 @@ export const webDevelopment = {
                         { term: 'Layout Thrashing', definition: 'Forcing the browser to recalculate layout multiple times, causing stuttering.' },
                         { term: 'Micro-interaction', definition: 'Small animation (like a like button heart pop) that provides feedback.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Animations & Scroll Effects Tutorial', url: 'https://www.youtube.com/results?search_query=Animations%20%26%20Scroll%20Effects%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-FE-08',
@@ -320,8 +374,10 @@ export const webDevelopment = {
                         { term: 'WCAG', definition: 'Web Content Accessibility Guidelines.' },
                         { term: 'ARIA', definition: 'Accessible Rich Internet Applications - a set of attributes that define ways to make web content more accessible.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Accessibility in Frontend Tutorial', url: 'https://www.youtube.com/results?search_query=Accessibility%20in%20Frontend%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-FE-09',
@@ -338,8 +394,10 @@ export const webDevelopment = {
                         { term: 'Lazy Loading', definition: 'Deferring loading of non-critical resources (like images below the fold) until they are needed.' },
                         { term: 'Virtualization', definition: 'Rendering only the visible portion of a massive list to keep the DOM light.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Performance Optimization Tutorial', url: 'https://www.youtube.com/results?search_query=Performance%20Optimization%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -362,7 +420,9 @@ export const webDevelopment = {
                         { term: 'Low-Fidelity', definition: 'A design that focuses on structure and flow rather than visual details (colors, images).' },
                         { term: 'Information Architecture', definition: 'The structural design of shared information environments; organizing how content is arranged.' }
                     ],
-                    resources: [],
+                    resources: [
+                        { title: 'Module 3: UI / UX Prompts Tutorial', url: 'https://www.youtube.com/results?search_query=Module%203%3A%20UI%20%2F%20UX%20Prompts%20tutorial', type: 'video' }
+                    ],
                     instructorNotes: 'Encourage students to not skip this step. "Thinking in text" is faster than moving pixels.'
                 },
                 {
@@ -380,7 +440,9 @@ export const webDevelopment = {
                         { term: 'Design Tokens', definition: 'The visual design atoms of the design system — specifically, they are named entities that store visual design attributes.' },
                         { term: 'Modular Scale', definition: 'A sequence of numbers that relate to one another in a meaningful way, used for sizing type.' }
                     ],
-                    resources: [],
+                    resources: [
+                        { title: 'Design System for Websites Tutorial', url: 'https://www.youtube.com/results?search_query=Design%20System%20for%20Websites%20tutorial', type: 'video' }
+                    ],
                     instructorNotes: 'explain that this JSON can be directly pasted into Tailwind config or CSS variables.'
                 },
                 {
@@ -398,7 +460,9 @@ export const webDevelopment = {
                         { term: 'Color Theory', definition: 'The science and art of using color. It explains how humans perceive color and the visual effects of how colors mix, match or contrast.' },
                         { term: 'Type Pairing', definition: 'Combining two or more typefaces that work well together.' }
                     ],
-                    resources: [],
+                    resources: [
+                        { title: 'Color Palette & Typography Tutorial', url: 'https://www.youtube.com/results?search_query=Color%20Palette%20%26%20Typography%20tutorial', type: 'video' }
+                    ],
                     instructorNotes: 'Show tools like Coolors.co to validate AI outputs.'
                 },
                 {
@@ -416,8 +480,10 @@ export const webDevelopment = {
                         { term: 'Box Model', definition: 'The fundamental structure of the web: Content, Padding, Border, Margin.' },
                         { term: 'Atomic Design', definition: 'Methodology for creating design systems: Atoms, Molecules, Organisms, Templates, Pages.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Figma Layout Prompting Tutorial', url: 'https://www.youtube.com/results?search_query=Figma%20Layout%20Prompting%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-UX-05',
@@ -434,8 +500,10 @@ export const webDevelopment = {
                         { term: 'Above the Fold', definition: 'The definition of the screen that is visible without scrolling.' },
                         { term: 'CTA (Call to Action)', definition: 'A prompt on a website that tells the user to take some specified action (e.g., "Buy Now").' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Hero Section Design Tutorial', url: 'https://www.youtube.com/results?search_query=Hero%20Section%20Design%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-UX-06',
@@ -452,8 +520,10 @@ export const webDevelopment = {
                         { term: 'Visual Hierarchy', definition: 'The arrangement or presentation of elements in a way that implies importance.' },
                         { term: 'Anchoring Effect', definition: 'A cognitive bias where an individual depends too heavily on an initial piece of information (the "anchor") to make subsequent judgments.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Conversion-Optimized Layouts Tutorial', url: 'https://www.youtube.com/results?search_query=Conversion-Optimized%20Layouts%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-UX-07',
@@ -470,8 +540,10 @@ export const webDevelopment = {
                         { term: 'WCAG', definition: 'Web Content Accessibility Guidelines - the international standard for web accessibility.' },
                         { term: 'Focus State', definition: 'The visual indicator that shows which element is currently selected by the keyboard.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Accessibility & UX Testing Tutorial', url: 'https://www.youtube.com/results?search_query=Accessibility%20%26%20UX%20Testing%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-UX-08',
@@ -488,8 +560,10 @@ export const webDevelopment = {
                         { term: 'Microcopy', definition: 'Small snippets of text on apps and websites that help users do things (labels, errors, loading text).' },
                         { term: 'Empty State', definition: 'What the user sees when there is no data to display.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'UX Copywriting for Web Tutorial', url: 'https://www.youtube.com/results?search_query=UX%20Copywriting%20for%20Web%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-UX-09',
@@ -506,8 +580,10 @@ export const webDevelopment = {
                         { term: 'Friction', definition: 'Anything that prevents a user from accomplishing a goal effortlessly.' },
                         { term: 'Cognitive Load', definition: 'The amount of working memory resources used.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Usability Audit using AI Tutorial', url: 'https://www.youtube.com/results?search_query=Usability%20Audit%20using%20AI%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -530,7 +606,9 @@ export const webDevelopment = {
                         { term: 'Key Trade-off', definition: 'The act of losing one quality or aspect of something in return for gaining another quality or aspect (e.g., Speed vs. Consistency).' },
                         { term: 'Serverless', definition: 'A cloud-native development model that allows developers to build and run applications without having to manage servers.' }
                     ],
-                    resources: [],
+                    resources: [
+                        { title: 'Module 4: Backend Prompts Tutorial', url: 'https://www.youtube.com/results?search_query=Module%204%3A%20Backend%20Prompts%20tutorial', type: 'video' }
+                    ],
                     instructorNotes: 'Emphasize that "boring" technology is often better for beginners.'
                 },
                 {
@@ -548,8 +626,10 @@ export const webDevelopment = {
                         { term: 'REST', definition: 'An architectural style for designing networked applications.' },
                         { term: 'Status Codes', definition: 'Standard response codes (200, 404, 500) that indicate the result of the API call.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'API Design for Forms & Auth Tutorial', url: 'https://www.youtube.com/results?search_query=API%20Design%20for%20Forms%20%26%20Auth%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-BE-03',
@@ -566,8 +646,10 @@ export const webDevelopment = {
                         { term: 'JWT', definition: 'JSON Web Token - a compact, URL-safe means of representing claims to be transferred between two parties.' },
                         { term: 'OAuth', definition: 'An open standard for access delegation, commonly used as a way for Internet users to grant websites or applications access to their information on other websites but without giving them the passwords.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Authentication Systems Tutorial', url: 'https://www.youtube.com/results?search_query=Authentication%20Systems%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-BE-04',
@@ -584,8 +666,10 @@ export const webDevelopment = {
                         { term: 'Headless CMS', definition: 'A backend-only content management system (CMS) built from the ground up as a content repository that makes content accessible via a RESTful API.' },
                         { term: 'Relation', definition: 'How data entities connect (e.g., An Article *belongs to* an Author).' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'CMS Backend Design Tutorial', url: 'https://www.youtube.com/results?search_query=CMS%20Backend%20Design%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-BE-05',
@@ -602,8 +686,10 @@ export const webDevelopment = {
                         { term: 'Asynchronous', definition: 'Code that runs independently of the main program flow (e.g., waiting for a server response).' },
                         { term: 'Hook', definition: 'A special function in React that lets you "hook into" React features.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Connecting Frontend to Backend Tutorial', url: 'https://www.youtube.com/results?search_query=Connecting%20Frontend%20to%20Backend%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-BE-06',
@@ -620,8 +706,10 @@ export const webDevelopment = {
                         { term: 'Transactional Email', definition: 'Automated emails sent in response to user actions (password reset, receipt, welcome).' },
                         { term: 'Serverless Function', definition: 'A single-purpose function that runs in the cloud and scales automatically.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Contact Form & Email Integration Tutorial', url: 'https://www.youtube.com/results?search_query=Contact%20Form%20%26%20Email%20Integration%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-BE-07',
@@ -638,8 +726,10 @@ export const webDevelopment = {
                         { term: 'Webhook', definition: 'A way for an app to provide other applications with real-time information (e.g., Stripe telling your server "Payment Success").' },
                         { term: 'Checkout Session', definition: 'A temporary object representing a customer\'s attempt to pay.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Payment Gateway Prompting Tutorial', url: 'https://www.youtube.com/results?search_query=Payment%20Gateway%20Prompting%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-BE-08',
@@ -656,8 +746,10 @@ export const webDevelopment = {
                         { term: 'SQL Injection', definition: 'A code injection technique where an attacker executes malicious SQL statements.' },
                         { term: 'XSS (Cross-Site Scripting)', definition: 'Vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Security & Input Validation Tutorial', url: 'https://www.youtube.com/results?search_query=Security%20%26%20Input%20Validation%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-BE-09',
@@ -674,8 +766,10 @@ export const webDevelopment = {
                         { term: 'Integration Test', definition: 'A level of software testing where individual units are combined and tested as a group.' },
                         { term: 'Mocking', definition: 'Creating a fake version of an external system (like a database) to test code in isolation.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Backend Testing Prompts Tutorial', url: 'https://www.youtube.com/results?search_query=Backend%20Testing%20Prompts%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -698,8 +792,10 @@ export const webDevelopment = {
                         { term: 'Entity', definition: 'A thing or object in the real world that is distinguishable from other objects (e.g., a person, a car).' },
                         { term: 'Attribute', definition: 'A property or characteristic of an entity (e.g., color, size).' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Module 5: DB Design & Prompts Tutorial', url: 'https://www.youtube.com/results?search_query=Module%205%3A%20DB%20Design%20%26%20Prompts%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-DB-02',
@@ -716,8 +812,10 @@ export const webDevelopment = {
                         { term: 'DDL', definition: 'Data Definition Language (CREATE, ALTER, DROP).' },
                         { term: 'UUID', definition: 'Universally Unique Identifier - a 128-bit label used for information in computer systems.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'SQL Schema for Websites Tutorial', url: 'https://www.youtube.com/results?search_query=SQL%20Schema%20for%20Websites%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-DB-03',
@@ -734,8 +832,10 @@ export const webDevelopment = {
                         { term: 'Join Table', definition: 'A table that links two other tables together in a many-to-many relationship.' },
                         { term: 'Polymorphism', definition: 'The ability of an object to take on many forms (e.g., a Comment can belong to a Post or a Photo).' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'CMS Database Design Tutorial', url: 'https://www.youtube.com/results?search_query=CMS%20Database%20Design%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-DB-04',
@@ -752,8 +852,10 @@ export const webDevelopment = {
                         { term: 'Document Store', definition: 'A type of database that stores data as semi-structured documents (like JSON).' },
                         { term: 'Embedding', definition: 'Nesting data structures inside a single document.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'NoSQL for Blogs Tutorial', url: 'https://www.youtube.com/results?search_query=NoSQL%20for%20Blogs%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-DB-05',
@@ -770,8 +872,10 @@ export const webDevelopment = {
                         { term: 'Hashing', definition: 'Turning data into a fixed-length string of characters that cannot be reversed.' },
                         { term: 'Salt', definition: 'Random data added to a password before hashing to protect against dictionary attacks.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'User Data Storage & Privacy Tutorial', url: 'https://www.youtube.com/results?search_query=User%20Data%20Storage%20%26%20Privacy%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-DB-06',
@@ -788,8 +892,10 @@ export const webDevelopment = {
                         { term: 'Index', definition: 'A data structure that improves the speed of data retrieval operations on a database table.' },
                         { term: 'Full Table Scan', definition: 'When the database reads every single row to find a match (very slow).' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Query Optimization Tutorial', url: 'https://www.youtube.com/results?search_query=Query%20Optimization%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-DB-07',
@@ -806,8 +912,10 @@ export const webDevelopment = {
                         { term: 'Migration', definition: 'A version control system for your database schema.' },
                         { term: 'Rollback', definition: 'Reverting a database to a previous state.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Migrations & Versioning Tutorial', url: 'https://www.youtube.com/results?search_query=Migrations%20%26%20Versioning%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-DB-08',
@@ -824,8 +932,10 @@ export const webDevelopment = {
                         { term: 'Time-Series', definition: 'Data that is indexed by time (e.g., stock prices, logs, page views).' },
                         { term: 'OLAP', definition: 'Online Analytical Processing - designed for complex queries and analysis.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Analytics Data Storage Tutorial', url: 'https://www.youtube.com/results?search_query=Analytics%20Data%20Storage%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-DB-09',
@@ -842,8 +952,10 @@ export const webDevelopment = {
                         { term: 'Cron Job', definition: 'A time-based job scheduler in Unix-like computer operating systems.' },
                         { term: 'Point-in-Time Recovery', definition: 'Restoring a database to the state it was in at a specific second in the past.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Backup & Recovery Prompts Tutorial', url: 'https://www.youtube.com/results?search_query=Backup%20%26%20Recovery%20Prompts%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -866,8 +978,10 @@ export const webDevelopment = {
                         { term: 'Minification', definition: 'The process of removing unnecessary characters (whitespace, comments) from source code to reduce size.' },
                         { term: 'Bundling', definition: 'Combining multiple files into a single file to reduce the number of HTTP requests.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Module 6: Deployment & Tooling Tutorial', url: 'https://www.youtube.com/results?search_query=Module%206%3A%20Deployment%20%26%20Tooling%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-DP-02',
@@ -884,8 +998,10 @@ export const webDevelopment = {
                         { term: 'Container', definition: 'A standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.' },
                         { term: 'Image', definition: 'A read-only template with instructions for creating a Docker container.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Generating Dockerfile Tutorial', url: 'https://www.youtube.com/results?search_query=Generating%20Dockerfile%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-DP-03',
@@ -902,8 +1018,10 @@ export const webDevelopment = {
                         { term: 'Pipeline', definition: 'A set of automated processes that allow developers to compile, build, and deploy code.' },
                         { term: 'YAML', definition: 'A human-readable data serialization standard.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'CI/CD for Websites Tutorial', url: 'https://www.youtube.com/results?search_query=CI%2FCD%20for%20Websites%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-DP-04',
@@ -920,8 +1038,10 @@ export const webDevelopment = {
                         { term: 'CDN (Content Delivery Network)', definition: 'A geographically distributed group of servers which work together to provide fast delivery of Internet content.' },
                         { term: 'Edge Network', definition: 'Servers that are physically close to the user.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Deploying to Vercel / Netlify Tutorial', url: 'https://www.youtube.com/results?search_query=Deploying%20to%20Vercel%20%2F%20Netlify%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-DP-05',
@@ -938,8 +1058,10 @@ export const webDevelopment = {
                         { term: 'DNS', definition: 'Domain Name System.' },
                         { term: 'Propagation', definition: 'The time it takes for DNS changes to update across the internet (can take up to 48 hours).' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Hosting with Custom Domains Tutorial', url: 'https://www.youtube.com/results?search_query=Hosting%20with%20Custom%20Domains%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-DP-06',
@@ -956,8 +1078,10 @@ export const webDevelopment = {
                         { term: 'Environment Variable', definition: 'A dynamic-named value that can affect the way running processes will behave on a computer.' },
                         { term: '.gitignore', definition: 'A text file that tells Git which files or folders to ignore in a project.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Environment Variables Tutorial', url: 'https://www.youtube.com/results?search_query=Environment%20Variables%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-DP-07',
@@ -974,8 +1098,10 @@ export const webDevelopment = {
                         { term: 'SSL/TLS', definition: 'Secure Sockets Layer / Transport Layer Security - cryptographic protocols designed to provide communications security over a computer network.' },
                         { term: 'Certbot', definition: 'A free, open-source software tool for automatically using Let\'s Encrypt certificates.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'SSL & Security Setup Tutorial', url: 'https://www.youtube.com/results?search_query=SSL%20%26%20Security%20Setup%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-DP-08',
@@ -992,8 +1118,10 @@ export const webDevelopment = {
                         { term: 'Observability', definition: 'A measure of how well internal states of a system can be inferred from knowledge of its external outputs.' },
                         { term: 'Stack Trace', definition: 'A report of the active stack frames at a certain point in time during the execution of a program.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Website Monitoring & Logs Tutorial', url: 'https://www.youtube.com/results?search_query=Website%20Monitoring%20%26%20Logs%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-DP-09',
@@ -1010,8 +1138,10 @@ export const webDevelopment = {
                         { term: 'Cache-Control', definition: 'An HTTP header used to specify browser caching policies in both client requests and server responses.' },
                         { term: 'Load Balancer', definition: 'A device that acts as a reverse proxy and distributes network or application traffic across a number of servers.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Scaling & Performance Tuning Tutorial', url: 'https://www.youtube.com/results?search_query=Scaling%20%26%20Performance%20Tuning%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -1034,8 +1164,10 @@ export const webDevelopment = {
                         { term: 'Vector', definition: 'Graphics defined by math (paths) instead of pixels, allowing for infinite scaling.' },
                         { term: 'Positive/Negative Space', definition: 'The space occupied by the subject vs the background.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Module 7: Assets & Creative Prompts Tutorial', url: 'https://www.youtube.com/results?search_query=Module%207%3A%20Assets%20%26%20Creative%20Prompts%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-AS-02',
@@ -1052,8 +1184,10 @@ export const webDevelopment = {
                         { term: 'Aspect Ratio', definition: 'The proportional relationship between an image\'s width and its height.' },
                         { term: 'Isometric', definition: 'A method for visually representing three-dimensional objects in two dimensions.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Hero Image Generation Tutorial', url: 'https://www.youtube.com/results?search_query=Hero%20Image%20Generation%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-AS-03',
@@ -1070,8 +1204,10 @@ export const webDevelopment = {
                         { term: 'Iconography', definition: 'The visual images and symbols used in a work of art or a study.' },
                         { term: 'SVG', definition: 'Scalable Vector Graphics.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Icon Set Creation Tutorial', url: 'https://www.youtube.com/results?search_query=Icon%20Set%20Creation%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-AS-04',
@@ -1088,8 +1224,10 @@ export const webDevelopment = {
                         { term: 'Tiling', definition: 'Repeating a small image pattern to fill a larger area.' },
                         { term: 'Noise', definition: 'Visual texture resembling grain, often used to prevent color banding.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Background Patterns & Textures Tutorial', url: 'https://www.youtube.com/results?search_query=Background%20Patterns%20%26%20Textures%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-AS-05',
@@ -1106,8 +1244,10 @@ export const webDevelopment = {
                         { term: 'Corporate Memphis', definition: 'A flat, geometric art style widely used in big tech.' },
                         { term: 'Spot Illustration', definition: 'Small, standalone illustrations used to highlight key points.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Illustrations for Sections Tutorial', url: 'https://www.youtube.com/results?search_query=Illustrations%20for%20Sections%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-AS-06',
@@ -1124,8 +1264,10 @@ export const webDevelopment = {
                         { term: 'Open Graph (OG)', definition: 'A protocol that allows any webpage to become a rich object in a social graph (controlling title, image, description).' },
                         { term: 'CTR', definition: 'Click-Through Rate.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Social Media Preview Images Tutorial', url: 'https://www.youtube.com/results?search_query=Social%20Media%20Preview%20Images%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-AS-07',
@@ -1142,8 +1284,10 @@ export const webDevelopment = {
                         { term: 'Favicon', definition: 'Short for "Favorite Icon".' },
                         { term: 'Touch Icon', definition: 'The icon used when a user adds your site to their mobile home screen.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Favicon & App Icon Generation Tutorial', url: 'https://www.youtube.com/results?search_query=Favicon%20%26%20App%20Icon%20Generation%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-AS-08',
@@ -1160,8 +1304,10 @@ export const webDevelopment = {
                         { term: 'Lossy', definition: 'Compression where some data is lost (smaller size, lower quality).' },
                         { term: 'Lossless', definition: 'Compression where no data is lost (larger size, perfect quality).' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Image Optimization for Web Tutorial', url: 'https://www.youtube.com/results?search_query=Image%20Optimization%20for%20Web%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'WP-AS-09',
@@ -1178,8 +1324,10 @@ export const webDevelopment = {
                         { term: 'Public Domain', definition: 'Creative materials that are not protected by intellectual property laws.' },
                         { term: 'Fair Use', definition: 'Doctrine that permits limited use of copyrighted material without acquiring permission.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Copyright & Licensing Awareness Tutorial', url: 'https://www.youtube.com/results?search_query=Copyright%20%26%20Licensing%20Awareness%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -1202,7 +1350,9 @@ export const webDevelopment = {
                         { term: 'No-Code/Low-Code', definition: 'Building software with minimal or no handwritten code, relying on GUIs or AI.' },
                         { term: 'Supabase Integration', definition: 'Connecting frontend apps to a backend-as-a-service for instant database functionality.' }
                     ],
-                    resources: [],
+                    resources: [
+                        { title: 'Module 8: AI Development Tools Tutorial', url: 'https://www.youtube.com/results?search_query=Module%208%3A%20AI%20Development%20Tools%20tutorial', type: 'video' }
+                    ],
                     instructorNotes: 'Highlight how Lovable handles the "blank canvas" problem better than standard IDEs.'
                 },
                 {
@@ -1220,7 +1370,9 @@ export const webDevelopment = {
                         { term: 'WebContainers', definition: 'A browser-based runtime that creates a secure Node.js environment inside a web page.' },
                         { term: 'Scaffolding', definition: 'Ideally generating the initial directory structure and config files for a project.' }
                     ],
-                    resources: [],
+                    resources: [
+                        { title: 'Bolt.new - Instant Full-Stack Apps Tutorial', url: 'https://www.youtube.com/results?search_query=Bolt.new%20-%20Instant%20Full-Stack%20Apps%20tutorial', type: 'video' }
+                    ],
                     instructorNotes: 'Compare Bolt to local VS Code - it is great for quick prototypes and sharing reproductions.'
                 },
                 {
@@ -1238,7 +1390,9 @@ export const webDevelopment = {
                         { term: 'Context Window', definition: 'The amount of text/code an AI can "see" and process at one time.' },
                         { term: 'Embeddings', definition: 'Vector representations of code that allow the AI to find semantically similar files.' }
                     ],
-                    resources: [],
+                    resources: [
+                        { title: 'Cursor - AI Code Editor Tutorial', url: 'https://www.youtube.com/results?search_query=Cursor%20-%20AI%20Code%20Editor%20tutorial', type: 'video' }
+                    ],
                     instructorNotes: 'Cursor is the industry standard for professional AI-assisted coding. Emphasize the "Tab" autocomplete.'
                 },
                 {
@@ -1256,7 +1410,9 @@ export const webDevelopment = {
                         { term: 'Agent', definition: 'An AI system equipped with tools (web search, file I/O) to perform actions.' },
                         { term: 'Autonomous Loop', definition: 'The cycle of self-correction and multi-step execution an agent performs.' }
                     ],
-                    resources: [],
+                    resources: [
+                        { title: 'Emergent AI & Agentic Workflows Tutorial', url: 'https://www.youtube.com/results?search_query=Emergent%20AI%20%26%20Agentic%20Workflows%20tutorial', type: 'video' }
+                    ],
                     instructorNotes: 'Showcase how agents can do work "while you sleep" vs chat which is synchronous.'
                 },
                 {
@@ -1274,7 +1430,9 @@ export const webDevelopment = {
                         { term: 'Hydration Error', definition: 'A common React issue where server-rendered HTML doesn\'t match client-side JavaScript.' },
                         { term: 'LSP', definition: 'Language Server Protocol - how editors understand code structure (auto-complete, definitions).' }
                     ],
-                    resources: [],
+                    resources: [
+                        { title: 'Replit AI & Windsurf Tutorial', url: 'https://www.youtube.com/results?search_query=Replit%20AI%20%26%20Windsurf%20tutorial', type: 'video' }
+                    ],
                     instructorNotes: 'Good for beginners as environment setup is zero.'
                 },
                 {
@@ -1292,7 +1450,9 @@ export const webDevelopment = {
                         { term: 'Chain-of-Thought', definition: 'Prompting the model to verbalize its thinking steps before giving a final answer.' },
                         { term: 'Hallucination', definition: 'When an AI confidently asserts false information.' }
                     ],
-                    resources: [],
+                    resources: [
+                        { title: 'ChatGPT - Conversational Logic & Reasoning Tutorial', url: 'https://www.youtube.com/results?search_query=ChatGPT%20-%20Conversational%20Logic%20%26%20Reasoning%20tutorial', type: 'video' }
+                    ],
                     instructorNotes: 'Use ChatGPT for the "Why" and "What", use Cursor for the "How".'
                 },
                 {
@@ -1310,7 +1470,9 @@ export const webDevelopment = {
                         { term: 'Multimodal', definition: 'AI capable of processing multiple types of input (Text, Images, Video, Audio).' },
                         { term: 'Context Window', definition: 'Gemini 1.5 Pro has a 2M token context window, allowing it to read entire books.' }
                     ],
-                    resources: [],
+                    resources: [
+                        { title: 'Gemini AI & Multimodal Development Tutorial', url: 'https://www.youtube.com/results?search_query=Gemini%20AI%20%26%20Multimodal%20Development%20tutorial', type: 'video' }
+                    ],
                     instructorNotes: 'Great for "Design-to-Code" workflows.'
                 },
                 {
@@ -1328,7 +1490,9 @@ export const webDevelopment = {
                         { term: 'Knowledge Cutoff', definition: 'The date past which an AI model has no training data.' },
                         { term: 'Real-time Retrieval', definition: 'Fetching live data from the web/social media to augment the answer.' }
                     ],
-                    resources: [],
+                    resources: [
+                        { title: 'Grok AI - Real-time Trend Analysis Tutorial', url: 'https://www.youtube.com/results?search_query=Grok%20AI%20-%20Real-time%20Trend%20Analysis%20tutorial', type: 'video' }
+                    ],
                     instructorNotes: 'Use this for "News" and "Trends", not deep coding theory.'
                 },
                 {
@@ -1346,7 +1510,9 @@ export const webDevelopment = {
                         { term: 'Tech Stack', definition: 'The combination of technologies and tools used to build an application.' },
                         { term: 'Context Switching', definition: 'The cost of mental energy lost when moving between different tasks or tools.' }
                     ],
-                    resources: [],
+                    resources: [
+                        { title: 'The AI Developer Workflow Tutorial', url: 'https://www.youtube.com/results?search_query=The%20AI%20Developer%20Workflow%20tutorial', type: 'video' }
+                    ],
                     instructorNotes: 'The final lesson should be about synthesis. Creating their own "Iron Man Suit" of tools.'
                 }
             ]

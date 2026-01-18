@@ -24,8 +24,10 @@ export const imageVideoGeneration = {
                     keywords: [
                         { term: 'Latent Space', definition: 'The abstract multi-dimensional space where the AI stores its understanding of concepts.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Image & Video Generation Tutorial', url: 'https://www.youtube.com/results?search_query=Image%20%26%20Video%20Generation%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-IP-02',
@@ -38,9 +40,13 @@ export const imageVideoGeneration = {
                         before: 'A cool cyberpunk city.',
                         after: 'Subject: A lone cyborg detective. Action: Standing in rain. Environment: Neon-lit Tokyo backstreet. Mood: Melancholic, blue and pink lighting.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Image & Video Generation', definition: 'The core subject of this lesson, focusing on image & video generation.' }
+                    ],
+                    resources: [
+                        { title: 'Visual Thinking & Idea Clarity Tutorial', url: 'https://www.youtube.com/results?search_query=Visual%20Thinking%20%26%20Idea%20Clarity%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-IP-03',
@@ -53,9 +59,13 @@ export const imageVideoGeneration = {
                         before: 'A happy dog.',
                         after: 'A golden retriever leaping mid-air catching a frisbee, sunny park background, vibrant green grass, tongue out, tail blurred in motion.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Converting Ideas into Visual Descriptions', definition: 'The core subject of this lesson, focusing on converting ideas into visual descriptions.' }
+                    ],
+                    resources: [
+                        { title: 'Converting Ideas into Visual Descriptions Tutorial', url: 'https://www.youtube.com/results?search_query=Converting%20Ideas%20into%20Visual%20Descriptions%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-IP-04',
@@ -71,8 +81,10 @@ export const imageVideoGeneration = {
                     keywords: [
                         { term: 'Token Weight', definition: 'The importance the AI assigns to specific words (earlier words usually have higher weight).' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Prompt Anatomy (Who, What, Where, How) Tutorial', url: 'https://www.youtube.com/results?search_query=Prompt%20Anatomy%20(Who%2C%20What%2C%20Where%2C%20How)%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-IP-05',
@@ -85,9 +97,13 @@ export const imageVideoGeneration = {
                         before: 'A castle.',
                         after: 'Ominous dark castle on a jagged cliff, storm clouds, lightning strike, gothic horror atmosphere, high contrast, desaturated colors.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Prompt Anatomy (Who, What, Where, How)', definition: 'The core subject of this lesson, focusing on prompt anatomy (who, what, where, how).' }
+                    ],
+                    resources: [
+                        { title: 'Defining Intent, Mood & Outcome Tutorial', url: 'https://www.youtube.com/results?search_query=Defining%20Intent%2C%20Mood%20%26%20Outcome%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-IP-06',
@@ -100,9 +116,13 @@ export const imageVideoGeneration = {
                         before: 'Future car.',
                         after: 'Sleek aerodynamic flying car hovering over a futuristic glass city, sunset reflection on chrome, motion blur, wide angle lens, concept art style by Syd Mead, 4k.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'From Abstract Thought to Concrete Prompt', definition: 'The core subject of this lesson, focusing on from abstract thought to concrete prompt.' }
+                    ],
+                    resources: [
+                        { title: 'From Abstract Thought to Concrete Prompt Tutorial', url: 'https://www.youtube.com/results?search_query=From%20Abstract%20Thought%20to%20Concrete%20Prompt%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -121,9 +141,13 @@ export const imageVideoGeneration = {
                         before: 'A robot in a desert.',
                         after: 'A rusty scavenger robot walking, vast dune desert background, harsh midday sun, heat waves, low angle tracking shot, hyper-realistic, 85mm lens.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Module 2: Image Generation Prompts', definition: 'The core subject of this lesson, focusing on module 2: image generation prompts.' }
+                    ],
+                    resources: [
+                        { title: 'Module 2: Image Generation Prompts Tutorial', url: 'https://www.youtube.com/results?search_query=Module%202%3A%20Image%20Generation%20Prompts%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-IG-02',
@@ -136,9 +160,13 @@ export const imageVideoGeneration = {
                         before: 'A warrior.',
                         after: 'Portrait of an elderly viking warrior, scarred face, braided white beard, wearing fur-lined steel armor, intense gaze, intricate etching details on metal.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Subject Description & Detail Control', definition: 'The core subject of this lesson, focusing on subject description & detail control.' }
+                    ],
+                    resources: [
+                        { title: 'Subject Description & Detail Control Tutorial', url: 'https://www.youtube.com/results?search_query=Subject%20Description%20%26%20Detail%20Control%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-IG-03',
@@ -151,9 +179,13 @@ export const imageVideoGeneration = {
                         before: 'A city street.',
                         after: 'A bustling Tokyo street, Ukiyo-e woodblock print style, thick outlines, flat colors, textured paper effect, traditional Japanese aesthetic.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Style, Art Direction & Aesthetic Control', definition: 'The core subject of this lesson, focusing on style, art direction & aesthetic control.' }
+                    ],
+                    resources: [
+                        { title: 'Style, Art Direction & Aesthetic Control Tutorial', url: 'https://www.youtube.com/results?search_query=Style%2C%20Art%20Direction%20%26%20Aesthetic%20Control%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-IG-04',
@@ -169,8 +201,10 @@ export const imageVideoGeneration = {
                     keywords: [
                         { term: 'Color Grading', definition: 'The process of altering and enhancing the color of a motion picture, video image, or still image.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Lighting, Color & Mood Design Tutorial', url: 'https://www.youtube.com/results?search_query=Lighting%2C%20Color%20%26%20Mood%20Design%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-IG-05',
@@ -183,9 +217,13 @@ export const imageVideoGeneration = {
                         before: 'Close up of a flower.',
                         after: 'Macro shot of a dew drop on a rose petal, shallow depth of field, bokeh background, f/2.8, sharp focus on the droplet, high detail.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Lighting, Color & Mood Design', definition: 'The core subject of this lesson, focusing on lighting, color & mood design.' }
+                    ],
+                    resources: [
+                        { title: 'Camera Angles & Framing for Images Tutorial', url: 'https://www.youtube.com/results?search_query=Camera%20Angles%20%26%20Framing%20for%20Images%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -204,9 +242,13 @@ export const imageVideoGeneration = {
                         before: 'A car driving.',
                         after: 'A red sports car driving fast on a coastal highway, wheels spinning, wind blowing palm trees, camera tracking the car from the side, sunset lighting.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Module 3: Video Generation Prompts', definition: 'The core subject of this lesson, focusing on module 3: video generation prompts.' }
+                    ],
+                    resources: [
+                        { title: 'Module 3: Video Generation Prompts Tutorial', url: 'https://www.youtube.com/results?search_query=Module%203%3A%20Video%20Generation%20Prompts%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-VG-02',
@@ -222,8 +264,10 @@ export const imageVideoGeneration = {
                     keywords: [
                         { term: 'Motion Bucket', definition: 'A parameter in many AI video tools that controls the overall amount of change/movement in a clip.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Motion & Action Description Tutorial', url: 'https://www.youtube.com/results?search_query=Motion%20%26%20Action%20Description%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-VG-03',
@@ -236,9 +280,13 @@ export const imageVideoGeneration = {
                         before: 'Fly over city.',
                         after: 'Aerial drone shot flying forward over NYC skyscrapers, camera tilting down slowly to reveal street traffic, stable motion, high velocity.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Motion & Action Description', definition: 'The core subject of this lesson, focusing on motion & action description.' }
+                    ],
+                    resources: [
+                        { title: 'Camera Movement & Shot Types Tutorial', url: 'https://www.youtube.com/results?search_query=Camera%20Movement%20%26%20Shot%20Types%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-VG-04',
@@ -251,9 +299,13 @@ export const imageVideoGeneration = {
                         before: 'Flower growing.',
                         after: 'Timelapse of a rose blooming, petals unfolding rapidly, stem rising, background lighting changing from day to night, smooth transition.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Time, Pace & Scene Duration', definition: 'The core subject of this lesson, focusing on time, pace & scene duration.' }
+                    ],
+                    resources: [
+                        { title: 'Time, Pace & Scene Duration Tutorial', url: 'https://www.youtube.com/results?search_query=Time%2C%20Pace%20%26%20Scene%20Duration%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-VG-05',
@@ -266,9 +318,13 @@ export const imageVideoGeneration = {
                         before: 'Scary hallway.',
                         after: 'Dark hospital hallway, lights flickering on and off, camera shaking (handheld style), shadows moving on the walls, eerie atmosphere.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Emotion & Atmosphere in Motion', definition: 'The core subject of this lesson, focusing on emotion & atmosphere in motion.' }
+                    ],
+                    resources: [
+                        { title: 'Emotion & Atmosphere in Motion Tutorial', url: 'https://www.youtube.com/results?search_query=Emotion%20%26%20Atmosphere%20in%20Motion%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -290,8 +346,10 @@ export const imageVideoGeneration = {
                     keywords: [
                         { term: 'Seed', definition: 'A number used to initialize the generation process. Using the same seed often produces similar results.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Module 4: Consistency (Characters, Style, World) Tutorial', url: 'https://www.youtube.com/results?search_query=Module%204%3A%20Consistency%20(Characters%2C%20Style%2C%20World)%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-CS-02',
@@ -304,9 +362,13 @@ export const imageVideoGeneration = {
                         before: 'A cool guy.',
                         after: 'Character Sheet for "Max": A cyberpunk detective with a robotic left arm, red sunglasses, and a trench coat. Front view, Side view, facial close-up. Flat lighting.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Module 4: Consistency (Characters, Style, World)', definition: 'The core subject of this lesson, focusing on module 4: consistency (characters, style, world).' }
+                    ],
+                    resources: [
+                        { title: 'Character Consistency Techniques Tutorial', url: 'https://www.youtube.com/results?search_query=Character%20Consistency%20Techniques%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-CS-03',
@@ -319,9 +381,13 @@ export const imageVideoGeneration = {
                         before: 'Draw a cat, then a dog.',
                         after: 'Style Block: " isometric 3D render, claymorphism, soft pastel colors, cute aesthetic, clean background". Apply this block to Prompt A ("A Cat") and Prompt B ("A Dog").'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Style Locking & Visual Identity', definition: 'The core subject of this lesson, focusing on style locking & visual identity.' }
+                    ],
+                    resources: [
+                        { title: 'Style Locking & Visual Identity Tutorial', url: 'https://www.youtube.com/results?search_query=Style%20Locking%20%26%20Visual%20Identity%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-CS-04',
@@ -334,9 +400,13 @@ export const imageVideoGeneration = {
                         before: 'A fanasy world.',
                         after: 'World Rules: "Floating islands, waterfalls falling into void, purple sky". Generate "A market scene" and "A castle scene" ensuring both include these rule keywords.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'World-Building Consistency', definition: 'The core subject of this lesson, focusing on world-building consistency.' }
+                    ],
+                    resources: [
+                        { title: 'World-Building Consistency Tutorial', url: 'https://www.youtube.com/results?search_query=World-Building%20Consistency%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-CS-05',
@@ -349,9 +419,13 @@ export const imageVideoGeneration = {
                         before: 'Man walks, man runs.',
                         after: 'Take the image of "Man standing". Use it as an Image Prompt. Prompt: "Man running". Set Image Weight to High. This keeps the same clothes/face but changes the pose.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Maintaining Consistency Across Generations', definition: 'The core subject of this lesson, focusing on maintaining consistency across generations.' }
+                    ],
+                    resources: [
+                        { title: 'Maintaining Consistency Across Generations Tutorial', url: 'https://www.youtube.com/results?search_query=Maintaining%20Consistency%20Across%20Generations%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -370,9 +444,13 @@ export const imageVideoGeneration = {
                         before: 'Two random scenes.',
                         after: 'Scene 1: Hero enters a dark cave (Holding a Torch). Scene 2: Hero sees a dragon (Must still be holding the torch, lighting must come from the torch). Correction: Add "Torchlight illumination" to Scene 2 prompt.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Module 5: Continuity (Story & Motion Flow)', definition: 'The core subject of this lesson, focusing on module 5: continuity (story & motion flow).' }
+                    ],
+                    resources: [
+                        { title: 'Module 5: Continuity (Story & Motion Flow) Tutorial', url: 'https://www.youtube.com/results?search_query=Module%205%3A%20Continuity%20(Story%20%26%20Motion%20Flow)%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-CN-02',
@@ -385,9 +463,13 @@ export const imageVideoGeneration = {
                         before: 'Guy at home. Guy at work.',
                         after: 'Shot A: Man picks up car keys (Close up). Shot B: Man opens car door (Medium Shot). Shot C: Car driving on highway (Wide Shot). This bridge connects the two locations logically.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Scene-to-Scene Story Flow', definition: 'The core subject of this lesson, focusing on scene-to-scene story flow.' }
+                    ],
+                    resources: [
+                        { title: 'Scene-to-Scene Story Flow Tutorial', url: 'https://www.youtube.com/results?search_query=Scene-to-Scene%20Story%20Flow%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-CN-03',
@@ -400,9 +482,13 @@ export const imageVideoGeneration = {
                         before: 'Day then night.',
                         after: 'Shot 1: Castle gates at Noon, harsh shadows. Shot 2: Castle gates at Sunset, long shadows, orange light. Shot 3: Castle gates at Night, torchlight only. Ensure the gate damage remains consistent.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Temporal Continuity (Time & Progression)', definition: 'The core subject of this lesson, focusing on temporal continuity (time & progression).' }
+                    ],
+                    resources: [
+                        { title: 'Temporal Continuity (Time & Progression) Tutorial', url: 'https://www.youtube.com/results?search_query=Temporal%20Continuity%20(Time%20%26%20Progression)%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-CN-04',
@@ -418,8 +504,10 @@ export const imageVideoGeneration = {
                     keywords: [
                         { term: '180 Degree Rule', definition: 'A rule in filmmaking stating that two characters in a scene should maintain the same left-right relationship to one another.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Motion Direction & Camera Continuity Tutorial', url: 'https://www.youtube.com/results?search_query=Motion%20Direction%20%26%20Camera%20Continuity%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-CN-05',
@@ -432,9 +520,13 @@ export const imageVideoGeneration = {
                         before: 'Sad guy, sunny day.',
                         after: 'Scene: Funeral. Prompt: "Graveyard context, rain pouring, grey sky, muted colors, characters in black, tears mixing with rain, somber atmosphere."'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Motion Direction & Camera Continuity', definition: 'The core subject of this lesson, focusing on motion direction & camera continuity.' }
+                    ],
+                    resources: [
+                        { title: 'Emotional Continuity in Visual Storytelling Tutorial', url: 'https://www.youtube.com/results?search_query=Emotional%20Continuity%20in%20Visual%20Storytelling%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -453,9 +545,13 @@ export const imageVideoGeneration = {
                         before: 'A horse riding a bike.',
                         after: 'Initial: "Horse riding bike". Result: Messy. Refined: "A horse sitting on a bicycle, human pose, anthropomorphic horse, hooves on handlebars, cartoon style". Adding "Anthropomorphic" fixes the anatomy issue.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Module 6: Editing, Refinement & Control', definition: 'The core subject of this lesson, focusing on module 6: editing, refinement & control.' }
+                    ],
+                    resources: [
+                        { title: 'Module 6: Editing, Refinement & Control Tutorial', url: 'https://www.youtube.com/results?search_query=Module%206%3A%20Editing%2C%20Refinement%20%26%20Control%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-ER-02',
@@ -471,8 +567,10 @@ export const imageVideoGeneration = {
                     keywords: [
                         { term: 'Inpainting', definition: 'The process of reconstructing lost or deteriorated parts of images and videos.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Improving Output Without Changing Style Tutorial', url: 'https://www.youtube.com/results?search_query=Improving%20Output%20Without%20Changing%20Style%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-ER-03',
@@ -485,9 +583,13 @@ export const imageVideoGeneration = {
                         before: 'Make it different.',
                         after: 'Base: "Cyberpunk City". Variant 1: "At Night" (Low Chaos). Variant 2: "In Winter" (Med Chaos). Variant 3: "Post-Apocalyptic" (High Chaos).'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Improving Output Without Changing Style', definition: 'The core subject of this lesson, focusing on improving output without changing style.' }
+                    ],
+                    resources: [
+                        { title: 'Controlled Variations & Alternatives Tutorial', url: 'https://www.youtube.com/results?search_query=Controlled%20Variations%20%26%20Alternatives%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-ER-04',
@@ -503,8 +605,10 @@ export const imageVideoGeneration = {
                     keywords: [
                         { term: 'Negative Prompt', definition: 'A list of things the AI should try not to generating.' }
                     ],
-                    resources: [],
-                    instructorNotes: ''
+                    resources: [
+                        { title: 'Fixing Common Visual Issues Tutorial', url: 'https://www.youtube.com/results?search_query=Fixing%20Common%20Visual%20Issues%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-ER-05',
@@ -517,9 +621,13 @@ export const imageVideoGeneration = {
                         before: 'Post raw image.',
                         after: 'Workflow: 1. Generate Image (Midjourney). 2. Fix hands (Inpainting). 3. Upscale 4x (Topaz). 4. Color Grade/Grain (Lightroom). 5. Export.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Fixing Common Visual Issues', definition: 'The core subject of this lesson, focusing on fixing common visual issues.' }
+                    ],
+                    resources: [
+                        { title: 'Fine-Tuning Details for Professional Results Tutorial', url: 'https://www.youtube.com/results?search_query=Fine-Tuning%20Details%20for%20Professional%20Results%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -538,9 +646,13 @@ export const imageVideoGeneration = {
                         before: 'Use any tool.',
                         after: 'Task: Create a minimal vector logo. Choice: DALL-E 3 is best for unstanding the text "Vector" and "Minimal", whereas Midjourney might make it too painterly.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Module 7: AI Tools & Usage', definition: 'The core subject of this lesson, focusing on module 7: ai tools & usage.' }
+                    ],
+                    resources: [
+                        { title: 'Module 7: AI Tools & Usage Tutorial', url: 'https://www.youtube.com/results?search_query=Module%207%3A%20AI%20Tools%20%26%20Usage%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-TL-02',
@@ -553,9 +665,13 @@ export const imageVideoGeneration = {
                         before: 'Make video.',
                         after: 'Use Midjourney to generate the "First Frame" (for quality). Use Runway Gen-2 with "Image-to-Video" to animate that frame. This ensures high visual fidelity.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Overview of Video Generation Tools', definition: 'The core subject of this lesson, focusing on overview of video generation tools.' }
+                    ],
+                    resources: [
+                        { title: 'Overview of Video Generation Tools Tutorial', url: 'https://www.youtube.com/results?search_query=Overview%20of%20Video%20Generation%20Tools%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-TL-03',
@@ -568,9 +684,13 @@ export const imageVideoGeneration = {
                         before: 'Do the job.',
                         after: 'Brief: "I need my specific product bottle in a jungle." Tool: Stable Diffusion + ControlNet (Canny Edge) to lock the bottle shape, inpainting the jungle around it.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Choosing the Right Tool for the Right Task', definition: 'The core subject of this lesson, focusing on choosing the right tool for the right task.' }
+                    ],
+                    resources: [
+                        { title: 'Choosing the Right Tool for the Right Task Tutorial', url: 'https://www.youtube.com/results?search_query=Choosing%20the%20Right%20Tool%20for%20the%20Right%20Task%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-TL-04',
@@ -583,9 +703,13 @@ export const imageVideoGeneration = {
                         before: 'Downloads folder.',
                         after: 'Folder: `Project_Name / 01_Prompts / 02_Raw_Gens / 03_Selected / 04_Upscaled / 05_Final`. Keep a `log.txt` with parameters used for 05_Final.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Workflow: Prompt → Generate → Refine', definition: 'The core subject of this lesson, focusing on workflow: prompt → generate → refine.' }
+                    ],
+                    resources: [
+                        { title: 'Workflow: Prompt → Generate → Refine Tutorial', url: 'https://www.youtube.com/results?search_query=Workflow%3A%20Prompt%20%E2%86%92%20Generate%20%E2%86%92%20Refine%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-TL-05',
@@ -598,9 +722,13 @@ export const imageVideoGeneration = {
                         before: 'Re-type prompts.',
                         after: 'Snippet "Cinematicly": "..., shallow depth of field, anamorphic lens flares, film grain, color graded, ISO 800". Paste this at the end of any subject prompt for instant movie vibes.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Building a Personal Prompt Library', definition: 'The core subject of this lesson, focusing on building a personal prompt library.' }
+                    ],
+                    resources: [
+                        { title: 'Building a Personal Prompt Library Tutorial', url: 'https://www.youtube.com/results?search_query=Building%20a%20Personal%20Prompt%20Library%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         },
@@ -619,9 +747,13 @@ export const imageVideoGeneration = {
                         before: 'A big giant massive huge red crimson scarlet fire truck car vehicle driving moving fast quick...',
                         after: 'A massive crimson firetruck speeding down a highway, motion blur, 8k.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Module 8: Common Mistakes to Avoid', definition: 'The core subject of this lesson, focusing on module 8: common mistakes to avoid.' }
+                    ],
+                    resources: [
+                        { title: 'Module 8: Common Mistakes to Avoid Tutorial', url: 'https://www.youtube.com/results?search_query=Module%208%3A%20Common%20Mistakes%20to%20Avoid%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-CM-02',
@@ -634,9 +766,13 @@ export const imageVideoGeneration = {
                         before: 'Two images.',
                         after: 'Image A: Max has a red tie. Image B: Max has a blue tie. Fix: Re-run Image B with specific prompt "wearing a red tie" or use Inpainting to recolor it.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Inconsistent Characters & Styles', definition: 'The core subject of this lesson, focusing on inconsistent characters & styles.' }
+                    ],
+                    resources: [
+                        { title: 'Inconsistent Characters & Styles Tutorial', url: 'https://www.youtube.com/results?search_query=Inconsistent%20Characters%20%26%20Styles%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-CM-03',
@@ -649,9 +785,13 @@ export const imageVideoGeneration = {
                         before: 'Eye view from inside mouth.',
                         after: 'Unless it\'s a dentist ad, avoid gross angles. Change to "POV shot looking at the dentist" or "Extreme close up of teeth".'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Poor Camera & Motion Instructions', definition: 'The core subject of this lesson, focusing on poor camera & motion instructions.' }
+                    ],
+                    resources: [
+                        { title: 'Poor Camera & Motion Instructions Tutorial', url: 'https://www.youtube.com/results?search_query=Poor%20Camera%20%26%20Motion%20Instructions%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-CM-04',
@@ -664,9 +804,13 @@ export const imageVideoGeneration = {
                         before: 'Forest -> Ocean.',
                         after: 'Insert a middle scene: "Hero walking out of the forest onto a sandy beach". This visual bridge explains the location change.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Broken Continuity in Stories', definition: 'The core subject of this lesson, focusing on broken continuity in stories.' }
+                    ],
+                    resources: [
+                        { title: 'Broken Continuity in Stories Tutorial', url: 'https://www.youtube.com/results?search_query=Broken%20Continuity%20in%20Stories%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 },
                 {
                     id: 'IV-CM-05',
@@ -679,9 +823,13 @@ export const imageVideoGeneration = {
                         before: 'Generate specific text.',
                         after: 'Requirement: "A sign saying \'Welcome to thilak\'s store\'". Decision: Don\'t prompt this. Prompt "A blank sign". Add the text in Photoshop. It is faster and cleaner.'
                     },
-                    keywords: [],
-                    resources: [],
-                    instructorNotes: ''
+                    keywords: [
+                        { term: 'Unrealistic Expectations from AI', definition: 'The core subject of this lesson, focusing on unrealistic expectations from ai.' }
+                    ],
+                    resources: [
+                        { title: 'Unrealistic Expectations from AI Tutorial', url: 'https://www.youtube.com/results?search_query=Unrealistic%20Expectations%20from%20AI%20tutorial', type: 'video' }
+                    ],
+                    instructorNotes: 'Review the provided resources for a deeper understanding of this topic before attempting the task.'
                 }
             ]
         }
